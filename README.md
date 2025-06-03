@@ -1,2 +1,1 @@
-# ransnotes
-Aran's notes.
+Repository for my highschool notes. Yep, I think that's it.
