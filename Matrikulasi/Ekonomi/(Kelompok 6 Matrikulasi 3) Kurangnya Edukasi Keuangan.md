@@ -1,3 +1,5 @@
+#tugas #kelompok
+
 **Anggota:**
 
 - Yusuf Abiyyu Muhammad
@@ -7,13 +9,13 @@
 - Zakia Azzahra
 - Zechairy Muhammad Zafran
 
-> **Kasus 6**
+> [!question] Kasus 6
 >
 > Di sebuah daerah, banyak masyarakat menjadi korban investasi bodong karena tidak paham cara memeriksa legalitas lembaga keuangan. Banyak yang belum tahu fungsi OJK dan bagaimana cara melaporkan penipuan.
 >
->	**(1)** *Apa peran OJK dalam meningkatkan literasi keuangan masyarakat?*
+>**(1)** *Apa peran OJK dalam meningkatkan literasi keuangan masyarakat?*
 >
->	**(2)** *Apa program yang bisa dilakukan?*
+>**(2)** *Apa program yang bisa dilakukan?*
 
 # Contoh Kasus
 
@@ -21,11 +23,11 @@ Banyak masyarakat yang menjadi korban investasi bodong karena kurangnya literasi
 
 Terdapat kasus bahwa adanya beberapa daerah yang terkena investasi bodong karena kurangnya pemahaman tentang latar belakang dari suatu lembaga keuangan. Bisa kita katakan juga masih ada beberapa masyarakat Indonesia yang bahkan belum terlalu tahu bagaimana seharusnya mereka untuk lebih paham dengan tempat investasi mereka.
 
-Ketua Sekretariat Satgas PASTI OJK, Hudiyanto, mengatakan bahwa sekitar Rp138.674T kerugian dari investasi bodong (25/03/2024)
+Ketua Sekretariat Satgas PASTI OJK, Hudiyanto, mengatakan bahwa sekitar Rp138.674T kerugian dari investasi bodong. (25/03/2024)
 
 Beberapa contoh investasi bodong:
 
-1. Memiles (hanya dengan top-up  keuntungan besar tak logis).
+1. Memiles (hanya dengan top-up keuntungan besar tak logis).
 2. Pandawa Group (merekrut member baru dengan iming-iming dapat keuntungan).
 
 # Peran OJK
