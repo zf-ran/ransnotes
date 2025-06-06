@@ -18,5 +18,11 @@
     "editor:insert-callout",
     "editor:configure-toolbar"
   ],
-  "alwaysUpdateLinks": false
+  "alwaysUpdateLinks": false,
+  "livePreview": false,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "./",
+  "promptDelete": false
 }

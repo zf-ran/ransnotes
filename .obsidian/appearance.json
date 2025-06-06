@@ -1,5 +1,6 @@
 {
   "cssTheme": "",
   "baseFontSize": 16,
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": false
 }
