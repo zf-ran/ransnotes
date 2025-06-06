@@ -1,0 +1,22 @@
+{
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:insert-footnote",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:insert-mathblock",
+    "editor:toggle-inline-math",
+    "editor:attach-file",
+    "editor:insert-table",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-comments",
+    "editor:insert-callout",
+    "editor:configure-toolbar"
+  ],
+  "alwaysUpdateLinks": false
+}
