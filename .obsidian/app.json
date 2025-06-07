@@ -24,5 +24,7 @@
   "showLineNumber": true,
   "newFileLocation": "root",
   "attachmentFolderPath": "./",
-  "promptDelete": false
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "showInlineTitle": false
 }
