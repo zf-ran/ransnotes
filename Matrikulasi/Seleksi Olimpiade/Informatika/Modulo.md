@@ -27,7 +27,7 @@ $$ (p-2)! \bmod p = 1, $$
 
 dan
 
-$$ (p-1)! \equiv -1 \pmod p $$
+$$ (p-1)! \equiv -1 \pmod p. $$
 
 ## Fermat’s Little Theorem
 
@@ -83,3 +83,17 @@ Bisa dirumuskan
 $$ \varphi(n) = A^{a-1}(A-1) \times B^{b-1}(B-1) \times \cdots \times Z^{z-1}(Z-1) $$
 
 dengan $A^a B^b \cdots Z^z$ adalah faktorisasi prima dari $n$.
+
+Fungsi $\varphi$ ini juga bisa memiliki identitas
+
+$$ \varphi(A^a B^b \cdots Z^z) = \varphi(A^a) \varphi(B^b) \cdots \varphi(Z^z). $$
+
+Sebagai contoh,
+
+$$ \begin{align*}
+	\varphi(72) &= \varphi\left(2^3 \cdot 3^2\right) \\
+	&= \varphi(2^3) \varphi(3^2) \\
+	&= 2^{3-1}(2-1) \cdot 3^{2-1}(3-1) \\
+	&= 2^2(1) \cdot 3(2) \\
+	\Aboxed{\varphi(72) &= 24}.
+\end{align*} $$
