@@ -5,7 +5,7 @@ Sebagai contoh,
 
 $$ p = \text{botol itu merah}. $$
 
-# Ingkaran atua Negasi (Not)
+# Ingkaran atau Negasi (Not)
 
 Dilambangkan dengan $\sim$ atau $\neg$ . Seperti $\neg p$: “tidak $p$”.
 

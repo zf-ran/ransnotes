@@ -3,5 +3,8 @@
   "baseFontSize": 16,
   "accentColor": "",
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "math"
+  ]
 }
