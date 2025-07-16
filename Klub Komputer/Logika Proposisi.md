@@ -1,6 +1,7 @@
 ---
 sources:
   - https://drive.google.com/file/d/1SLmRtdwNGGCXW9sZ640S-81JS4zB2TPv/view
+  - https://drive.google.com/file/d/12vxPyFD_UeGhsIZMvkPVZpD4IQFIF9yd/view
 ---
 
 
@@ -150,14 +151,54 @@ maka $\neg q \implies \neg p$:
 
 ---
 
+$$ \newcommand{\true}{\mathrm{T}} \newcommand{\false}{\mathrm{F}} $$
+
 # Contoh Soal
 
-1. **(OSK 2022)** Pak Dengklek menemukan sebuah kotak mainan di dalam gudang rumahnya. Ternyata, kotak tersebut milik lima bebek Pak Dengklek: Kwak, Kwik, Kwuk, Kwek, dan Kwok. Terdapat lima buah bebek karet berwarna merah, biru, hijau, kuning, dan ungu. Diketahui bahwa setiap bebek karet dimiliki oleh tepat satu bebek. Diketahui juga bahwa setiap bebek pasti memiliki bebek karet dengan warna yang sesuai dengan salah satu warna kesukaannya. Jika diberikan informasi sebagai berikut:
-	- Kwok hanya menyukai warna oranye, hijau dan kuning.
-	- Kwuk menyukai semua warna selain oranye, ungu, kuning, dan biru.
-	- Kwak hanya menyukai warna hijau, oranye, dan biru.
-	- Kwek hanya menyukai warna merah dan ungu.
-	- Kwik menyukai semua warna selain biru, ungu, hijau, dan merah.
-	
-	Siapa pemilik bebek karet berwarna hijau?  
-	**Kwok.**
+> **(OSK 2022)** Pak Dengklek menemukan sebuah kotak mainan di dalam gudang rumahnya. Ternyata, kotak tersebut milik lima bebek Pak Dengklek: Kwak, Kwik, Kwuk, Kwek, dan Kwok. Terdapat lima buah bebek karet berwarna merah, biru, hijau, kuning, dan ungu. Diketahui bahwa setiap bebek karet dimiliki oleh tepat satu bebek. Diketahui juga bahwa setiap bebek pasti memiliki bebek karet dengan warna yang sesuai dengan salah satu warna kesukaannya. Jika diberikan informasi sebagai berikut:
+> - Kwok hanya menyukai warna oranye, hijau dan kuning.
+> - Kwuk menyukai semua warna selain oranye, ungu, kuning, dan biru.
+> - Kwak hanya menyukai warna hijau, oranye, dan biru.
+> - Kwek hanya menyukai warna merah dan ungu.
+> - Kwik menyukai semua warna selain biru, ungu, hijau, dan merah.
+> 
+> Siapa pemilik bebek karet berwarna hijau?
+
+| Kw_k | Merah | Biru  | Hijau | Kuning | Ungu  |
+| ---- | ----- | ----- | ----- | ------ | ----- |
+| A    |       | ==T== | ~~T~~ |        |       |
+| I    |       |       |       | ==T==  |       |
+| U    | ==T== |       | ~~T~~ |        |       |
+| E    | ~~T~~ |       |       |        | ==T== |
+| O    |       |       | ==T== | ~~T~~  |       |
+
+**Kwok.**
+
+
+**(OSK 2022)** Perhatikan operasi logika berikut!
+
+$$ \begin{align*}
+	P &= ((\neg A) \wedge B) \vee (((\neg C) \vee D) \wedge E) \\
+	Q &= ((\neg A) \vee B) \wedge (((\neg C) \wedge (\neg D)) \vee (\neg E)) \\
+	R &= P \wedge Q.
+\end{align*} $$
+
+Jika nilai
+
+$$ \begin{align*}
+	A = \true \\
+	B = \true \\
+	C = \true \\
+	D = \true \\
+	E = \false,
+\end{align*} $$
+
+tentukan nilai $P$, $Q$, dan $R$ berturut-turut.
+
+$$ \begin{align*}
+	P &= ((\neg A) \wedge B) \vee (((\neg C) \vee D) \wedge E) \\
+	&= ((\neg \true) \wedge \true) \vee (((\neg \true) \vee \true) \wedge \false) \\
+	&= (\false \wedge \true) \vee \false \\
+	&= \false \wedge \false \\
+	\Aboxed{P &= \false}
+\end{align*} $$
