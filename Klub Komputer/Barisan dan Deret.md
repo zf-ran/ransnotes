@@ -1,1 +1,0 @@
-Barisan adalah kumpulan bilangan berurut dengan aturan-aturan tertentu.

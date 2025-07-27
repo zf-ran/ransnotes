@@ -22,6 +22,9 @@ Misalkan himpunan $A = \{1, 2, 3, 4, 5\}$, dan himpunan $B = \{2, 5\}$. Maka $B 
 
 Banyak himpunan bagian dari himpunan $S$ adalah $2^{|S|}$.
 
-## Inklusi dan Eksklusi
+## Prinsip Inklusi-Eksklusi
 
-$$ |A \cup B| = |A| + |B| - |A \cap B| $$
+Metode untuk menghitung banyak anggota dalam gabungan beberapa himpunan.
+
+- **Dua Himpunan:**
+	$$ |A \cup B| = |A| + |B| - |A \cap B| $$
