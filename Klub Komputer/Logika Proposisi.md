@@ -4,7 +4,6 @@ sources:
   - https://drive.google.com/file/d/12vxPyFD_UeGhsIZMvkPVZpD4IQFIF9yd/view
 ---
 
-
 # Aturan Proposisi
 
 Proposisi ...
@@ -87,6 +86,14 @@ $$ a \implies b $$
 
 bermakna *jika $a$ maka $b$*.
 
+### Konvers, Invers, dan Kontraposisi
+
+$$ p \implies q $$
+
+- Konvers: $q \implies p$.
+- Invers: $\neg p \implies \neg q$.
+- Kontraposisi: $\neg q \implies \neg p$.
+
 ## Biimplikasi
 
 Dilambangkan dengan $\iff$.
@@ -133,7 +140,7 @@ $$ \neg(p \wedge q) = \neg p \vee \neg q $$
 
 $$ \neg(p \vee q) = \neg p \wedge \neg q $$
 
-## Kontraposisi
+## Silogisme
 
 $$ (p \implies q) \implies (\neg q \implies \neg p) $$
 
