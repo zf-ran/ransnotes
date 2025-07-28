@@ -18,7 +18,7 @@
     "editor:insert-callout",
     "editor:configure-toolbar"
   ],
-  "alwaysUpdateLinks": false,
+  "alwaysUpdateLinks": true,
   "livePreview": false,
   "strictLineBreaks": true,
   "showLineNumber": true,
