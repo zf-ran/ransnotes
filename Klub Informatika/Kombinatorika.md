@@ -1,3 +1,8 @@
+---
+sources:
+  - https://docs.google.com/presentation/d/1kfwCfHw6bgogBirN1XXKfPlK4BxWhapQ/edit
+---
+
 # Kaidah Berhitung
 
 ## Kaidah Penjumlahan
@@ -12,7 +17,12 @@ Digunakan untuk menghitung banyak kemungkinan dari kejadian-kejadian yang terjad
 
 Banyak cara menyusun $n$ objek adalah $n!$, di mana
 
-$$ a! = a \times (a-1) \times (a-2) \times \cdots \times 2 \times 1. $$
+%% `\P` and `\C` definition. %%
+$$
+	a! = a \times (a-1) \times (a-2) \times \cdots \times 2 \times 1.
+	\newcommand{\P}{\mathrm{P}}
+	\newcommand{\C}{\mathrm{C}}
+$$
 
 # Permutasi
 
@@ -20,10 +30,7 @@ Permutasi digunakan untuk menghitung banyak cara *menyusun* objek. Karena menghi
 
 Misalkan $\P_r^n$ adalah banyak cara menyusun $r$ dari $n$ objek, maka
 
-$$
-	\newcommand{\P}{\mathrm{P}}\newcommand{\C}{\mathrm{C}}
-	\P_r^n = \frac{n!}{(n-r)!}
-$$
+$$ \P_r^n = \frac{n!}{(n-r)!} $$
 
 di mana $0 \leq r \leq n$.
 
@@ -37,7 +44,7 @@ $$ (n-1)!. $$
 
 Sedangkan banyak cara menyusun $r$ dari $n$ objek secara siklis dapat dihitung dengan cara
 
-$$ \C_r^n (n-1)!. $$
+$$ (n-1)! \times \C_r^n. $$
 
 ## Permutasi Unsur Sama
 

@@ -1,8 +1,6 @@
 Kumpulan objek berbeda yang memiliki karakteristik yang sama dan bisa didefinisikan dengan jelas.
 
-Seperti
-
-> Himpunan bilangan bulat positif.
+Seperti “himpunan bilangan bulat positif,” “himpunan bilangan prima,” dan lain-lain.
 
 # Istilah
 
@@ -28,3 +26,5 @@ Metode untuk menghitung banyak anggota dalam gabungan beberapa himpunan.
 
 - **Dua Himpunan:**
 	$$ |A \cup B| = |A| + |B| - |A \cap B| $$
+- **Tiga Himpunan:**
+	$$ |A \cup B \cup C| = |A| + |B| + |C| - (|A \cap B| + |A \cap C| + |B \cap C|) + |A \cap B \cap C| $$

@@ -2,15 +2,15 @@
 
 Sedangkan **deret** adalah jumlah dari anggota-anggota sebuah barisan.
 
-# Aritmatika
+# Aritmetika
 
 ## Barisan
 
-Barisan aritmatika adalah barisan bilangan di mana selisih dua suku berturutan[^berturutan] sama.
+Barisan aritmetika adalah barisan bilangan di mana selisih dua suku berturutan[^berturutan] sama.
 
 [^berturutan]: Berturut-turut, misalnya $U_3$ dengan $U_4$.
 
-Misalkan $U_n$ adalah suku ke-$n$ dari suatu barisan aritmatika, maka
+Misalkan $U_n$ adalah suku ke-$n$ dari suatu barisan aritmetika, maka
 
 $$ U_n = U_1 + (n-1)b $$
 
@@ -22,17 +22,17 @@ Barisan bilangan
 
 $$ 3, 7, 11, 15, 19, \dots $$
 
-merupakan barisan aritmatika, karena selisih dua suku berturutan sama
+merupakan barisan aritmetika, karena selisih dua suku berturutan sama
 
 $$ 7 - 3 = 11 - 7 = 15 -11 = \dots = 4. $$
 
-Bentuk umum dari barisan aritmatika dapat dinyatakan seperti
+Bentuk umum dari barisan aritmetika dapat dinyatakan seperti
 
 $$ U_1, U_1 + b, U_1 + 2b, U_1 + 3b, \dots. $$
 
 ## Deret
 
-Misalkan $S_n$ adalah jumlah $n$ suku pertama dari suatu barisan aritmatika, maka
+Misalkan $S_n$ adalah jumlah $n$ suku pertama dari suatu barisan aritmetika, maka
 
 $$ S_n = \frac{n}{2} (U_1 + U_n), $$
 

@@ -1,45 +1,67 @@
 Modulo adalah sisa bagi.
 
-> [!quote] Notasi
-> $a \bmod m = b$
+> [!quote] Notasi Modulo
+> $$ a \bmod m = b $$
 > 
-> atau
+> bermakna sisa pembagian $a$ dengan $m$ adalah $b$.
+
+> [!quote] Notasi Aritmatika Modular
+> $$ a \equiv b \pmod m $$
 > 
-> $a \equiv b \pmod m$
-
-Diketahui
-
-$$ a = b \bmod m, $$
-
-maka
-
-$$ a = km + b $$
-
-di mana $k \in \mathbb{Z}$
+> bermakna $a$ dan $b$ itu kongruen pada modulo $m$, atau dapat juga ditulis dengan
+> 
+> $$ a \bmod m = b \bmod m. $$
 
 # Sifat-Sifat
 
+## Modulo
+
+## Kekongruenan
+
+Jika $a \equiv b \pmod m$ dan $k \in \mathbb{Z}$, maka:
+
+- $a + k \equiv b + k \pmod m$.
+- $ka \equiv kb \pmod m$.
+- $ka \equiv kb \pmod {km}$.
+- $a^k \equiv b^k \pmod m$.
+
+Jika $a_1 \equiv b_1 \pmod m$ dan $a_2 \equiv b_2 \pmod m$, maka:
+
+- $a_1 + a_2 \equiv b_1 + b_2 \pmod m$.
+- $a_1 a_2 \equiv b_1 b_2 \pmod m$.
+
 # Fermat's Little Theorem
 
-Bila ada bilangan prima $p$ dan bilangan bulat $a$, maka
-
-$$ a^p \equiv a \pmod p $$
-
-atau dapat diturunkan
-
-$$ a^{p-1} \equiv 1 \pmod p $$
+> [!info]
+> Bila ada bilangan prima $p$ dan bilangan bulat $a$, maka
+> 
+> $$ a^p \equiv a \pmod p $$
+> 
+> atau dapat diturunkan
+> 
+> $$ a^{p-1} \equiv 1 \pmod p $$
 
 # Wilson's Theorem
 
+> [!info] Teorema Wilson
+> Untuk bilangan prima $p$ maka
+>
+> $$ (p - 1)! \equiv -1 \pmod p. $$
+>
+> Pernyataan di atas dapat diturunkan menjadi
+> 
+> $$ (p - 2)! \equiv 1 \pmod p. $$
+
 # Euler's Theorem
 
-Diberikan bilangan $a$ dan $m$ yang saling prima[^coprime] dan $\varphi$ adalah *Euler's totient function*, maka
-
-$$ a^{\varphi(m)} \equiv 1 \pmod m, $$
-
-atau dapat diturunkan menjadi
-
-$$ a^n \equiv a^{n \bmod \varphi(m)} \pmod m $$
+> [!info] Teorema Euler
+> Diberikan bilangan $a$ dan $m$ yang saling prima[^coprime] dan $\varphi$ adalah *Euler's totient function*, maka
+> 
+> $$ a^{\varphi(m)} \equiv 1 \pmod m, $$
+> 
+> atau dapat diturunkan menjadi
+> 
+> $$ a^n \equiv a^{n \bmod \varphi(m)} \pmod m. $$
 
 [^coprime]: Faktor persekutuan terbesar mereka bernilai 1.
 

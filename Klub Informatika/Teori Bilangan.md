@@ -24,6 +24,25 @@ Berikut ciri-ciri angka yang habis membagi $n$.
 		+ 28 habis dibagi 7, maka 343 juga habis dibagi tujuh.
 6. $n = 9$
 	+ Jumlah digit-digitnya habis dibagi sembilan.
+7. $n = 11$
+	+ Selisih jumlah digit pada urutan ganjil dan jumlah digit pada urutan genap habis dibagi 11.
+	+ *Contoh:* $25806$
+		+ Pisahkan digit pada urutan ganjil dan genap.
+			$$ 286 \quad 50 $$
+		+ Jumlahkan digit-digit pada masing-masing kelompok.
+			$$ 16 \quad 5 $$
+		+ Cari selisih mereka.
+			$$ 16 - 5 = 11 $$
+		+ 11 habis dibagi 11, maka 25806 juga habis dibagi 11.
+8. $n = 13$
+	+ **Pisahkan** digit satuannya, lalu **kalikan 4**.
+	+ **Tambah** dengan sisa digitnya.
+	+ Jika hasil tersebut habis dibagi 13, maka bilangan sebelumnya habis dibagi 13.
+
+## Pangkat Umum
+
+1. $n = 2^k$
+	+ Jika $k$ digit terakhirnya habis dibagi $n$, maka bilangan sebelumnya juga habis dibagi $n$.
 
 # Legendre's Formula
 
