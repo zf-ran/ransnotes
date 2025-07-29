@@ -1,5 +1,30 @@
 # Keterbagian
 
+Berikut ciri-ciri angka yang habis membagi $n$.
+
+1. $n = 2$
+	+ Bilangan genap.
+2. $n = 3$  
+	+ Jumlah digit-digitnya habis dibagi tiga.
+3. $n = 4$
+	+ Dua digit terakhirnya habis dibagi empat.
+4. $n = 5$
+	+ Satuannya 0 atau 5.
+5. $n = 7$
+	+ **Pisahkan** digit satuannya, lalu kalikan **dua**.
+	+ **Kurangkan** dengan sisa digitnya.
+	+ Jika hasil tersebut habis dibagi tujuh, maka bilangan tersebut habis dibagi tujuh.
+	+ *Contoh:* $343$.
+		+ Pisahkan digit satuannya.
+			$$ 34 \quad 3 $$
+		+ Lalu kalikan digit satuannya dengan dua.
+			$$ 3 \times 2 = 6 $$
+		+ Kurangkan dengan sisa digitnya.
+			$$ 34 - 6 = 28 $$
+		+ 28 habis dibagi 7, maka 343 juga habis dibagi tujuh.
+6. $n = 9$
+	+ Jumlah digit-digitnya habis dibagi sembilan.
+
 # Legendre's Formula
 
 Metode untuk mencari eksponen tertinggi dari basis yang prima dari $n!$. 
