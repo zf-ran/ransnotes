@@ -1,0 +1,1 @@
+*Dynamic programming* (pemrograman dinamis) adalah metode untuk menyederhanakan masalah menjadi submasalah yang lebih kecil, atau bisa dibilang secara rekursif.

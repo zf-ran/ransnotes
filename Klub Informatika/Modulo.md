@@ -5,7 +5,7 @@ Modulo adalah sisa bagi.
 > 
 > bermakna sisa pembagian $a$ dengan $m$ adalah $b$.
 
-> [!quote] Notasi Aritmatika Modular
+> [!quote] Notasi Aritmetika Modular
 > $$ a \equiv b \pmod m $$
 > 
 > bermakna $a$ dan $b$ itu kongruen pada modulo $m$, atau dapat juga ditulis dengan
@@ -15,6 +15,14 @@ Modulo adalah sisa bagi.
 # Sifat-Sifat
 
 ## Modulo
+
+- **Identitas**
+	- $(a \bmod m) \bmod m = a \bmod m$.
+	- $m^n \bmod m = 0$ untuk $n \in \mathbb{N}$.
+- **Distributif**
+	- $(a + b) \bmod m = (a \bmod m + b \bmod m) \bmod m$.
+	- $(ab) \bmod m = ((a \bmod m)(b \bmod m)) \bmod m$.
+	- $a^n \bmod m = (a \bmod m)^n \bmod m$ untuk $n \in \mathbb{N}$.
 
 ## Kekongruenan
 
