@@ -5,7 +5,9 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "math"
+    "math",
+    "variable-ordered-list",
+    "print"
   ],
   "theme": "system"
 }

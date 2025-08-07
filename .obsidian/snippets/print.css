@@ -1,0 +1,9 @@
+.markdown-source-view,
+.markdown-preview-view {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.markdown-source-view ::marker,
+.markdown-preview-view ::marker {
+	color: var(--text-normal);
+}
