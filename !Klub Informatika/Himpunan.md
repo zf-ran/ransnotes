@@ -1,3 +1,9 @@
+---
+sources:
+  - https://drive.google.com/file/d/1q8Ng2RHQnPZ82U30UU_6S_7HuE0i-KlY/view
+---
+
+
 Kumpulan objek berbeda yang memiliki karakteristik yang sama dan bisa didefinisikan dengan jelas.
 
 Seperti “himpunan bilangan bulat positif,” “himpunan bilangan prima,” dan lain-lain.

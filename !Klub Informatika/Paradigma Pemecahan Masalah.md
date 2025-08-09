@@ -1,4 +1,10 @@
-> [!question] 
+---
+sources:
+  - https://drive.google.com/file/d/1xP65xczwD8UxNe2PIxkQh_UZe31TAkO1/view
+  - https://drive.google.com/file/d/129gzJ1SoPGuIEcZNUwV7ILJoMUngb2bo/view
+---
+
+> [!question]
 > Terdapat 8 buah lampu yang berjejer dari kiri ke kanan yang dilabeli A, B, C, D, E, F, G, dan H. Pada awalnya, semua lampu dalam kondisi mati.
 > 
 > Ada 10 bebek Pak Dengklek yang ingin bermain dengan lampu-lampu tersebut. Diketahui bahwa masing-masing dari mereka memiliki lampu favorit yang ditandai dengan ✓ pada tabel berikut.
@@ -197,6 +203,8 @@ So for every letter, there's only 2 choices. Since there are 8 letters, therefor
 ---
 
 > [!question] 
+> #binary-search 
+> 
 > Miko memiliki penggaris dengan panjang 20 satuan.
 > 
 > Saat pembuatan penggaris, terdapat kesalahan yaitu salah satu angka dari 1–20 terlewat sehingga angka terakhir di penggaris adalah 21.
@@ -213,7 +221,148 @@ So for every letter, there's only 2 choices. Since there are 8 letters, therefor
 > 
 > Berapa jumlah pertanyaan paling sedikit agar anda dapat menebak angka yang hilang pada penggaris.
 
-#binary-search
-
 > [!done] Answer
 > 5.
+
+---
+
+%% Paradigma Pemecahan Masalah 2 %%
+
+> [!question] 
+> #dynamic-programming #grid-dp
+> 
+> Tara the Beaver wants to go home. She can just move up or move to the right on the following map.
+> 
+> |     |     |     |     |     |
+> | :-: | :-: | :-: | :-: | :-: |
+> | 1🪙 | 2👺 | 3🪙 | 3🪙 | 🏁  |
+> | 2👺 | 1🪙 | 2👺 | 1👺 | 2🪙 |
+> | 2🪙 | 2👺 | 2🪙 | 3🪙 | 1👺 |
+> | 3🪙 | 1👺 | 1👺 | 1👺 | 1🪙 |
+> | 🦫  | 2🪙 | 2🪙 | 2👺 | 2🪙 |
+> 
+> On a square there are either monsters or coins. Tara collects all the coins along the path that she follows when she walks on a square with monsters, she needs to give each monster a coin. If she doesn't have enough coins, she will need to give it to them later when she has enough.
+> 
+> Which route should Tara take to make sure she ends up with the most coins?
+
+Max coin table for each square and from where.
+
+|        |        |        |         |             |
+| :----: | :----: | :----: | :-----: | :---------: |
+|   ↓4   |   ~2   |   ↓6   | ==↓==10 | **==←==10** |
+|   ↓3   |   ~4   |   ↓3   | ==↓==7  |     ~9      |
+| ==↓==5 | ==←==3 | ==~==5 | ==←==8  |     ←7      |
+| ==↓==3 |   ←2   | ==↓==3 |   ←2    |     ↓5      |
+|   🦫   | ==←==2 | ==←==4 |   ←2    |     ←4      |
+|        |        |        |         |             |
+
+There are two routes.
+
+> [!done] Answer(s)
+> - ↑↑→→→↑↑→.
+> - →→↑↑→↑↑→.
+
+---
+
+> [!question] 
+> #dynamic-programming #grid-dp 
+> 
+> Kitty (`K`) sedang bermain "Menangkap Tikus". Kitty dapat bergerak melalui tali-tali yang terhubung. Panjang dari setiap tali yang terhubung adalah sama. Sayangnya, ada beberapa tali yang putus karena ulah Tikus (`T`) sehingga tidak dapat dilewati. Bantulah Kitty mencari berapa banyak cara ia dapat menangkap tikus dengan menempuh jarak terpendek!
+> 
+> ```
+> ┌──┬──┬─   ─┬──┬──T
+> │  │  │  │  │  │  │
+> ├──┼──┼──┼──┼──┼──┤
+> │  │  │  │  │  │  │
+> ├──┼─   ─┼──┼──┼──┤
+> │  │  │  │  │  │  │
+> K──┴──┴──┴─   ─┴──┘
+> ```
+
+Karena Kitty harus melalui jalan terpendek, maka pilihannya hanya ada bergerak ke atas, atau ke kanan.
+
+Banyak cara menuju suatu *node* adalah banyak cara dari kiri ditambah banyak cara dari bawah, atau
+
+$$ \mathrm{dp}[r][c] = \mathrm{dp}[r-1][c] + \mathrm{dp}[r][c-1]. $$
+
+Berikut tabel berisi banyak cara menuju suatu *node*. Kita isi mulai dari kiri bawah, *start*-nya Kitty.
+
+|       |     |     |     |     |     |        |
+| ----- | --- | --- | --- | --- | --- | ------ |
+| 1     | 4   | 7   | 0   | 5   | 11  | **18** |
+| 1     | 3   | 3   | 4   | 5   | 6   | 7      |
+| 1     | 2   | 0   | 1   | 1   | 1   | 1      |
+| **1** | 1   | 1   | 1   | 0   | 0   | 0      |
+
+> [!done] Answer
+> Ada 18 cara terpendek.
+
+---
+
+> [!question] 
+> When an aircraft lands or takes off from an airport, they are assigned corridors to avoid accidents. These are designated airspaces which separate each aircrafts.
+> 
+> At the Bebrasland airport, aircraft cannot have the same corridor if they are landing or taking off within 15 minutes.
+> 
+> Below is a timetable provided with arrival and departure times for flights.
+> 
+> | Flight | Arrivals | Departures |
+> | ------ | :------: | :--------: |
+> | 9W2400 |   7:00   |            |
+> | EK427  |          |    7:03    |
+> | SG147  |   7:12   |            |
+> | AI620  |   7:18   |            |
+> | AI561  |          |    7:20    |
+> | 9W1321 |          |    7:21    |
+> 
+> What is the minimum number of corridors needed to ensure that all the flights land and take off savely?
+
+| Corridor | Time       |
+| -------- | ---------- |
+| 1        | 7:00, 7:18 |
+| 2        | 7:03, 7:20 |
+| 3        | 7:12       |
+| 4        | 7:21       |
+
+
+> [!done] Answer
+> There needs to be at least 4 corridors.
+
+---
+
+> [!question] 
+> #dynamic-programming #tile-dp 
+> 
+> Pak Dengklek memiliki lahan yang berukuran 1×10 yang nantinya akan ditempatkan tiga jenis kandang dengan ukuran berbeda, yaitu ukuran 1×1, 1×2, dan 1×4.
+> 
+> Jika jumlah kandang tidak terbatas, ada berapa banyak cara yang bisa dilakukan oleh Pak Dengklek untuk menyusun kandang-kandang tersebut?
+
+Untuk lahan berukuran 1×N, maka ada tiga kasus,
+
+- `[====N-1====][1]`;
+- `[===N-2===][=2=]`; dan
+- `[=N-4=][===4===]`.
+
+Misalkan $f(n)$ adalah banyak cara mengisi kandang berukuran $1 \times n.$ Maka dapat dirumuskan
+
+$$ f(n) = f(n-1) + f(n-2) + f(n-4). $$
+
+| $n$ | $f(n)$ |
+| --- | ------ |
+| 1   | 1      |
+| 2   | 2      |
+| 3   | 3      |
+| 4   | 6      |
+| 5   | 10     |
+| 6   | 18     |
+| 7   | 31     |
+| 8   | 55     |
+| 9   | 96     |
+| 10  | 169    |
+
+> [!done] Answer
+> Ada 169 cara.
+
+---
+
+All uniforms used at a tomato festival 

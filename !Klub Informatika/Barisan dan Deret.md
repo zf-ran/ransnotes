@@ -1,3 +1,9 @@
+---
+sources:
+  - https://drive.google.com/file/d/11EBIUuFiJaOPQCKTuno7GJu-QkOib6iI/view
+---
+
+
 **Barisan** adalah kumpulan bilangan berurut dengan aturan-aturan tertentu.
 
 Sedangkan **deret** adalah jumlah dari anggota-anggota sebuah barisan.

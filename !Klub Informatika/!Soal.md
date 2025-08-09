@@ -1,4 +1,4 @@
-> [!question] Soal
+> [!question]
 > **(OSK 2022)** Pak Dengklek menemukan sebuah kotak mainan di dalam gudang rumahnya. Ternyata, kotak tersebut milik lima bebek Pak Dengklek: Kwak, Kwik, Kwuk, Kwek, dan Kwok. Terdapat lima buah bebek karet berwarna merah, biru, hijau, kuning, dan ungu. Diketahui bahwa setiap bebek karet dimiliki oleh tepat satu bebek. Diketahui juga bahwa setiap bebek pasti memiliki bebek karet dengan warna yang sesuai dengan salah satu warna kesukaannya. Jika diberikan informasi sebagai berikut:
 > - Kwok hanya menyukai warna oranye, hijau dan kuning.
 > - Kwuk menyukai semua warna selain oranye, ungu, kuning, dan biru.
@@ -20,8 +20,9 @@
 
 ---
 
-> [!question] Soal
-> #logika
+> [!question]
+> #proposisi
+> 
 > **(OSK 2022)** Perhatikan operasi logika berikut!
 > 
 > $$ \begin{align*}
