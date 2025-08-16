@@ -5,11 +5,13 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "print",
     "math",
-    "variable-ordered-list"
+    "variable-ordered-list",
+    "no-strike-task",
+    "print",
+    "inter-complete"
   ],
   "theme": "system",
-  "textFontFamily": "Arial",
+  "textFontFamily": "",
   "interfaceFontFamily": ""
 }

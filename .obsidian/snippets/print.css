@@ -1,12 +1,12 @@
-@import url("fonts/inter/font.css");
-
 :root {
 	--bold-weight: 700;
 }
 
 .markdown-source-view,
-.markdown-preview-view {
-	font-family: 'Inter Complete', 'Segoe UI', sans-serif;
+.markdown-preview-view,
+.markdown-rendered {
+	font-weight: 400;
+	font-family: "Inter Complete", "Segoe UI", "Roboto", sans-serif;
 }
 
 .markdown-source-view ::marker,
