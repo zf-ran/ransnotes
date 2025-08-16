@@ -1,0 +1,60 @@
+{
+	"nodes":[
+		{
+			"id":"fe29981dbbb31f9e",
+			"type":"text",
+			"text":"# Keanekaragaman Hayati",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-380,
+			"y":-80,
+			"width":440,
+			"height":80,
+			"color":"4"
+		},
+		{
+			"id":"0c36edee91a49379",
+			"type":"text",
+			"text":"## Tingkat Keanekaragaman Hayati",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-726,
+			"y":220,
+			"width":506,
+			"height":60,
+			"color":"3"
+		},
+		{"id":"ff3d71e9da91f1f6","type":"text","text":"Keanekaragaman gen","x":-339,"y":410,"width":299,"height":50},
+		{
+			"id":"3a4d4fec25e2e978",
+			"type":"text",
+			"text":"Keanekaragaman spesies",
+			"styleAttributes":{
+				"border":null,
+				"shape":null
+			},
+			"x":-339,
+			"y":480,
+			"width":299,
+			"height":50
+		},
+		{"id":"2c978be5a9e9475b","type":"text","text":"Keanekaragaman ekosistem","x":-339,"y":560,"width":299,"height":50}
+	],
+	"edges":[
+		{"id":"740af367c438a8e1","fromNode":"fe29981dbbb31f9e","fromSide":"bottom","toNode":"0c36edee91a49379","toSide":"top"},
+		{"id":"46bc0130fcff39ce","fromNode":"0c36edee91a49379","fromSide":"bottom","toNode":"3a4d4fec25e2e978","toSide":"left"},
+		{"id":"8f6bca19d08fd4f8","fromNode":"0c36edee91a49379","fromSide":"bottom","toNode":"2c978be5a9e9475b","toSide":"left"},
+		{
+			"id":"397f5b646deff8da",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0c36edee91a49379",
+			"fromSide":"bottom",
+			"toNode":"ff3d71e9da91f1f6",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"54db73e32ad5578a"
+	}
+}

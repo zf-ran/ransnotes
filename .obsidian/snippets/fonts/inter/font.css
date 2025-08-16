@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Inter Complete";
+	font-style: normal;
+	font-weight: 400;
+	src: url("src/regular400.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Inter Complete";
+	font-style: normal;
+	font-weight: 700;
+	src: url("src/regular700") format("truetype");
+}
+
+@font-face {
+	font-family: "Inter Complete";
+	font-style: italic;
+	font-weight: 400;
+	src: url("src/italic400.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Inter Complete";
+	font-style: italic;
+	font-weight: 700;
+	src: url("src/italic700.ttf") format("truetype");
+}

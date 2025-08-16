@@ -5,9 +5,11 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
+    "print",
     "math",
-    "variable-ordered-list",
-    "print"
+    "variable-ordered-list"
   ],
-  "theme": "system"
+  "theme": "system",
+  "textFontFamily": "Arial",
+  "interfaceFontFamily": ""
 }
