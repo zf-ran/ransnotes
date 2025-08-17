@@ -42,22 +42,6 @@
       "key": "\\"
     }
   ],
-  "advanced-canvas:previous-node": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "advanced-canvas:next-node": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "advanced-canvas:start-presentation": [
     {
       "modifiers": [],

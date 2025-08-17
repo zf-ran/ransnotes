@@ -7,11 +7,13 @@
   "enabledCssSnippets": [
     "math",
     "variable-ordered-list",
-    "no-strike-task",
     "print",
-    "inter-complete"
+    "inter-complete",
+    "no-wrap-code-block",
+    "no-strike-task"
   ],
   "theme": "system",
   "textFontFamily": "",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "DejaVu Sans Mono,JetBrains Mono,Cascadia Code"
 }
