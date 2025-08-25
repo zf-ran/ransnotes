@@ -13,7 +13,7 @@
     "no-strike-task"
   ],
   "theme": "system",
-  "textFontFamily": "",
-  "interfaceFontFamily": "",
+  "textFontFamily": "Inter Complete",
+  "interfaceFontFamily": "Inter Complete",
   "monospaceFontFamily": "DejaVu Sans Mono,JetBrains Mono,Cascadia Code"
 }

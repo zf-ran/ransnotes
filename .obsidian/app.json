@@ -16,7 +16,8 @@
     "editor:toggle-numbered-list",
     "editor:toggle-comments",
     "editor:insert-callout",
-    "editor:configure-toolbar"
+    "editor:configure-toolbar",
+    "insert-current-date"
   ],
   "alwaysUpdateLinks": true,
   "livePreview": false,
