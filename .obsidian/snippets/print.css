@@ -2,13 +2,12 @@
 	--bold-weight: 700;
 }
 
-.markdown-source-view,
 .markdown-preview-view,
 .markdown-rendered {
 	font-family: "Inter Complete", "Segoe UI", "Roboto", sans-serif;
 }
 
-.markdown-source-view ::marker,
-.markdown-preview-view ::marker {
+.markdown-preview-view ::marker,
+.markdown-rendered ::marked {
 	color: var(--text-normal);
 }

@@ -15,5 +15,5 @@
   "theme": "system",
   "textFontFamily": "Inter Complete",
   "interfaceFontFamily": "Inter Complete",
-  "monospaceFontFamily": "DejaVu Sans Mono,JetBrains Mono,Cascadia Code"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code"
 }
