@@ -71,4 +71,40 @@ Ruangnya banyak. Pembahasannya lebar.
 
 # Penilitian Sejarah
 
+adalah proses **mengkaji** atau membahas tentang **peristiwa masa lampau** secara **sistematis**, dengan tujuan untuk **menambah wawasan** dan pemahaman tentang peristiwa tersebut.
+
+## Metode Sejarah
+
 Menurut Kuntowijoyo.
+
+1. Pemiliihan topik.
+2. Heuristik: pencarian data.
+3. Kritik: verifikasi data.
+4. Interpretasi: tafsir data.
+5. Historiografi: penulisan sejarah.
+
+### Sumber Sejarah
+
+Berdasarkan sifat.
+
+1. Sumber primer.
+2. Sumber sekunder.
+
+Berdasarkan bentuk.
+
+1. Sumber tertulis.
+2. Sumber lisan.
+3. Sumber benda.
+
+### Verifikasi Data
+
+Dua cara.
+
+1. Eksternal.
+	- Bentuknya, umur.
+2. Internal.
+	- Tulisannya, isinya, teksnya.
+
+### Historiografi
+
+TK
