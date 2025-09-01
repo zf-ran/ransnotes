@@ -1,0 +1,32 @@
+- lapisan atmosfer
+- awan
+- angin
+- gempa
+- tsunami
+- sungai dan laut
+
+- Lapisan Atmosfer
+	- Troposfer
+		- Cuaca, pesawat.
+		- Suhu menurun.
+	- Stratosfer
+		- Ozon, menyerap sinar UV matahari.
+		- Suhu naik.
+	- Mesosfer
+		- Tempat meteor terbakar.
+		- Suhu menurun drastis.
+	- Termosfer
+		- Aurora.
+		- Memantulkan gelombang radio.
+		- Suhu naik.
+- Awan
+	- Penamaan:
+		- *Cirro-*: ikal rambut
+		- *Alto-*: menengah
+		- *Strato-*: lapisan
+		- *Nimbo-*: hujan, presipitasi
+		- *Cumolo-*: tumpukan
+	- Awan Tinggi (> 20.000 ft)
+		- Awalan *cirro-*.
+		- Karena suhu yang rendah, awan terdiri dari kristal es.
+		- Tipis, bergaris
