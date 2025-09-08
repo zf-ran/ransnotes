@@ -1,3 +1,8 @@
 .MathJax {
   font-size: 1.2em;
 }
+
+.cm-s-obsidian span.cm-math {
+	font-style: normal;
+	font-size: 100%;
+}
