@@ -1,10 +1,3 @@
-- lapisan atmosfer
-- awan
-- angin
-- gempa
-- tsunami
-- sungai dan laut
-
 - Lapisan Atmosfer
 	- Troposfer
 		- Cuaca, pesawat.
@@ -20,7 +13,7 @@
 		- Memantulkan gelombang radio.
 		- Suhu naik.
 - Awan
-	- Penamaan:
+	- Penamaan
 		- *Cirro-*: ikal rambut
 		- *Alto-*: menengah
 		- *Strato-*: lapisan
@@ -29,4 +22,62 @@
 	- Awan Tinggi (> 20.000 ft)
 		- Awalan *cirro-*.
 		- Karena suhu yang rendah, awan terdiri dari kristal es.
-		- Tipis, bergaris
+		- Tipis, bergaris, putih.
+		- Cirrus
+		- Cirrostratus
+		- Cirrocumulus
+	- Awan Tengah (6.500 ft--20.000 ft)
+		- Awalan *alto-*.
+		- Terdiri dari air cair (tetesan superdingin), kristal es, atau keduanya.
+		- Altokumulus
+		- Altostratus
+	- Awan Rendah (< 6.500 ft)
+		- Awan hujan.
+		- Stratus
+			- Stratokumulus
+			- Nimbostratus
+		- Kumulus
+- Angin
+	- Angin Laut
+		- Laut ke darat.
+		- Siang.
+		- Darat panas duluan daripada air laut, karena kapasitas panas darat lebih rendah daripada air.
+	- Angin Darat
+		- Darat ke laut.
+		- Malam.
+		- Darat dingin duluan daripada air laut.
+	- Angin Lembah
+		- Siang.
+	- Angin Gunung
+		- Malam.
+	- Angin Fohn
+	- Angin Muson
+		- Bolak-balik arahnya setiap periode tertentu.
+		- Karena gerak semu tahunan matahari.
+		- Angin Muson Barat
+			- Dari Asia (dingin) ke Australia (panas).
+			- Melewati perairan dan samudra.
+			- Menyebabkan musim hujan di Indonesia.
+			- Oktober--April
+		- Angin Muson Timur
+			- Dari Australia (dingin) ke Asia (panas).
+			- Angin melewati gurun-gurun di Australia.
+			- Musim kemarau di Indonesia.
+			- Juni--Agustus
+- Gempa
+	- Gempa tektonik
+		- Terjadi di antara tektonik.
+	- Gempa vulkanik
+		- Karena magma di dalam gunung berapi sedang mengalami pergerakan.
+		- Pertanda meletusnya gunung berapi.
+	- Gempa tumbukan
+		- Karena benda luar yang jatuh ke bumi.
+	- Gempa runtuhan
+		- Akibat runtuhnya tanah, seperti tanah longsor.
+- Tsunami
+	- Gelombang laut yang tinggi.
+	- Gempa di laut, letusan gunung di laut.
+	- Gempa tersebut menimbulkan gelombang laut.
+	- Longsor/runtuhan menimbulkan gelombang laut.
+	- Saat mendekati pantai (dangkal), kecepatan gelombang menurun dan ketinggian gelombang menaik.
+- Sungai dan Laut

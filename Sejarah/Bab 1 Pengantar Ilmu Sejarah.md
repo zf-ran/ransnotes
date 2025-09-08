@@ -88,12 +88,18 @@ Menurut Kuntowijoyo.
 Berdasarkan sifat.
 
 1. Sumber primer.
+	- Langsung dari peristiwanya, dikeluarkan pada masa peristiwa tersebut.
 2. Sumber sekunder.
+	- Saksi dari peristiwa tersebut, dokumen tidak sezaman.
 
 Berdasarkan bentuk.
 
 1. Sumber tertulis.
 2. Sumber lisan.
+	- *Sejarah lisan*
+		- Langsung dari pelaku, atau saksi sezaman.
+	- *Tradisi lisan*
+		- Turun-temurun, dongeng, cerita rakyat.
 3. Sumber benda.
 
 ### Verifikasi Data
@@ -107,4 +113,9 @@ Dua cara.
 
 ### Historiografi
 
-TK
+Dari bahasa Latin, *historiografia* (penulisan sejarah).
+
+Ada dua model historiografi.
+
+1. Model deskriptif naratif.
+2. Model deskriptif argumentatif.

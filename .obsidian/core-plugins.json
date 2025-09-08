@@ -23,11 +23,11 @@
   "word-count": true,
   "slides": true,
   "audio-recorder": false,
-  "workspaces": false,
+  "workspaces": true,
   "file-recovery": true,
   "publish": false,
-  "sync": true,
+  "sync": false,
   "webviewer": true,
-  "footnotes": false,
+  "footnotes": true,
   "bases": true
 }
