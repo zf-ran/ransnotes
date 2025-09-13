@@ -60,7 +60,7 @@ Kombinasi digunakan untuk menghitung banyak cara *memilih* objek (tanpa memperha
 
 Misalkan $\C_r^n$ adalah banyak cara memilih $r$ dari $n$ objek, maka
 
-$$ \C_r^n = \binom{n}{r} = \frac{n!}{r!(n-r)!}. $$
+$$ \C_r^n = \binom{n}{r} = \frac{n!}{r!(n-r)!}, $$
 
 di mana $0 \leq r \leq n$.
 

@@ -5,12 +5,13 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "math",
     "variable-ordered-list",
     "print",
     "inter-complete",
     "no-wrap-code-block",
-    "no-strike-task"
+    "no-strike-task",
+    "math",
+    "left-aligned-math"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",
