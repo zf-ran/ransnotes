@@ -27,7 +27,7 @@ Di Indonesia, **Ki Hajar Dewantara**, bapak pendidikan Indonesia, memperkenalkan
 
 # Sosiologi sebagai Ilmu Sosial
 
-Berasal dari bahasa Latin "socius" (kawan) dan "logos" (ilmu), secara literal "ilmu tentang kawan." Secara istilah adalah ilmu tentang sifat, perilaku, dan perkembangan ***masyarakat***.
+Berasal dari bahasa Latin "*socius*" (kawan) dan "*logos*" (ilmu), secara literal "ilmu tentang kawan." Secara istilah adalah ilmu tentang sifat, perilaku, dan perkembangan ***masyarakat***. Sosiologi membahas interaksi individu dengan individu, individu dengan kelompok, maupun kelompok dengan kelompok.
 
 Objek yang dikaji pada Sosiologi adalah **masyarakat**.
 
@@ -49,8 +49,17 @@ Paradigma (kerangka bepikir) sosiologi tidaklah tunggal, berbagai paradigma dapa
 Menurut **Ritzer**, ada 3 paradigma utama pada sosiologi.
 
 1. **Paradigma Fakta Sosial**
+	- Membahas fakta sosial, ada ataupun tidak adanya ide atau gagasan.
 2. **Paradigma Definisi Sosial**
+	- Membahas makna (definisi) subjektif yang diberikan individu terhadap tindakan yang dilakukannya.
+	- Membahas hal mikro,
+		- *proses pendefinisian sosial dan akibat-akibat dari suatu aksi*
+	- bukan makro.
+		- *struktur dan pranata sosial*
 3. **Paradigma Perilaku Sosial**
+	- Membahas perilaku yang menimbulkan akibat pada tindakan selanjutnya.
+	- *Reward* yang memancing perilaku dan
+	- *punishment* yang mencegah perilaku.
 
 Berikut teori-teori pada paradigma sosiologi.
 
@@ -62,10 +71,14 @@ Pada teori **sistem**, masyarakat dipahami sebagai sistem terbuka yang memiliki 
 
 Teori **tindakan sosial** menyatakan sosiologi harus memahami tindakan individu yang memiliki makna subjektif dan diarahkan kepada orang lain (Max Weber).
 
-Teori **interaksionalisme simbolik** menyatakan kehidupan sosial terbentuk dari interaksi sehari-hari yang penuh dengan makna simbolis (bahasa, gestur, simbol). Identitas individu dibentuk melalui interaksi sosial (George Herbert Mead, Herbert Blumer, Erving Goffman).
+Teori **interaksionisme simbolik** menyatakan kehidupan sosial terbentuk dari interaksi sehari-hari yang penuh dengan makna simbolis (bahasa, gestur, simbol). Identitas individu dibentuk melalui interaksi sosial (George Herbert Mead, Herbert Blumer, Erving Goffman).
 
 Teori **fenomenologi** menekankan pengalaman subjektif individu. Sosiologi perlu memahami bagaimana individu memberikan makna pada realitas sosialnya (Edmund Husserl, Alfred Schutz).
 
 Teori **eksistensialisme** fokus pada kebebasan, tanggung jawab, dan pilihan individu dalam menghadapi kehidupan. Menekankan eksistensi manusia yang unik (Jean-Paul Sartre, Søren Kierkegaard, Martin Heidegger).
 
 Teori **pertukaran** menyatakan bahwa interaksi sosial dipahami sebagai proses pertukaran imbalan dan biaya. Individu bertindak untuk memaksimalkan keuntungan dan meminimalkan kerugian (George C. Homans, Peter Blau).
+
+> [!question] Apa beda teori fungsionalisme struktural dan teori sistem?
+
+Pada teori sistem, jika ada suatu sistem yang rusak, sistem yang lain akan terganggu, bahkan mungkin tidak dapat berjalan. Sedangkan pada teori fungsionalisme strukturan, jika ada suatu sistem yang rusak, masih bisa digantikan dengan sistem lain.

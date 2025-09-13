@@ -78,16 +78,6 @@
 			"height":60
 		},
 		{
-			"id":"403258acf1e4c6f8",
-			"type":"text",
-			"text":"Menyanyikan Mars MAN 2 Pekanbaru",
-			"styleAttributes":{"textAlign":"center"},
-			"x":280,
-			"y":80,
-			"width":320,
-			"height":60
-		},
-		{
 			"id":"36643ac5ae06de06",
 			"type":"text",
 			"text":"Mendengarkan motivasi dari guru",
@@ -147,6 +137,16 @@
 			"x":310,
 			"y":-20,
 			"width":260,
+			"height":60
+		},
+		{
+			"id":"403258acf1e4c6f8",
+			"type":"text",
+			"text":"Menyanyikan Mars MAN 2 Pekanbaru",
+			"styleAttributes":{"textAlign":"center"},
+			"x":270,
+			"y":80,
+			"width":340,
 			"height":60
 		}
 	],
