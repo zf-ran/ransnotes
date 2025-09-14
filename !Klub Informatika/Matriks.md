@@ -1,13 +1,13 @@
 $\newcommand{\tp}{\mathrm{T}}$
-Matriks adalah susunan bilangan (entri) dalam kolom dan baris, variabel matriks ditulis dengan huruf kapital. Matriks dapat ditulis dengan $[]$ atau $()$. Misalnya matriks $A$,
+Matriks adalah susunan bilangan (entri) dalam kolom dan baris, variabel matriks ditulis dengan huruf kapital. Matriks dapat ditulis dengan $[\dots]$ atau $(\dots)$. Misalnya matriks $A$,
 
 $$ A = \begin{bmatrix} a & b & c \\ x & y & z \end{bmatrix}. $$
 
-Matriks $A$ memiliki 2 baris dan 3 kolom, maka matriks $A$ **berukuran** (berordo) $2 \times 3$, atau dapat ditulis $A_{2\times3}$.
+Matriks $A$ memiliki 2 baris dan 3 kolom, maka matriks $A$ **berukuran** (berordo) $2 \times 3$, atau dapat ditulis $A_{2\times3}$. Ukuran matriks $M$ ditulis sebagai $M_{\text{baris}\times\text{kolom}}$.
 
 # Matriks Persegi
 
-Sebuah matriks disebut sebagai **matriks persegi** jika baris dan kolomnya sama, contohnya matriks $M$,
+Sebuah matriks disebut sebagai **matriks persegi** jika banyak baris dan banyak kolomnya sama, contohnya matriks $M$,
 
 $$ M_{3\times3} = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}. $$
 
@@ -17,9 +17,11 @@ Untuk matriks persegi $A$, ada sebuah **matriks identitas** $I$ yang di mana
 
 $$ IA = A. $$
 
-Notasi $IA$ melambangkan perkalian matriks $I$ dan matriks $A$ yang dijelaskan di bawah, [[#Perkalian Matriks dengan Matriks]].
+Notasi $IA$ melambangkan perkalian matriks $I$ dan matriks $A$, [[#Perkalian Matriks dengan Matriks]].
 
-Matriks identitas tersebut adalah matriks yang entri pada diagonal utama (dari kiri atas ke kanan bawah) bernilai $1$, dan selainnya $0$. Maka identitas matriks $2\times2$ adalah
+Matriks identitas tersebut adalah matriks yang entri pada diagonal utama (dari kiri atas ke kanan bawah) bernilai $1$, dan selainnya $0$.
+
+Didapat identitas matriks $2\times2$ adalah
 
 $$ I_{2\times2} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}. $$
 
@@ -31,15 +33,14 @@ $$ I_{3\times3} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatr
 
 Notasi entri matriks $A$ pada baris $i$ dan kolom $j$ akan ditulis sebagai $A_{i,j}$, atau dapat dijabarkan sebagai berikut.
 
-$$ A_{n \times n} =
+$$ A_{n \times m} =
 \begin{bmatrix}
-	a_{1,1} & a_{1,2} & a_{1,3} & \cdots & a_{1,n} \\
-	a_{2,1} & a_{2,2} & a_{2,3} & \cdots & a_{2,n} \\
-	a_{3,1} & a_{3,2} & a_{3,3} & \cdots & a_{3,n} \\
+	A_{1,1} & A_{1,2} & A_{1,3} & \cdots & A_{1,m} \\
+	A_{2,1} & A_{2,2} & A_{2,3} & \cdots & A_{2,m} \\
+	A_{3,1} & A_{3,2} & A_{3,3} & \cdots & A_{3,m} \\
 	\vdots & \vdots & \vdots & \ddots & \vdots \\
-	a_{n,1} & a_{n,2} & a_{n,3} & \cdots & a_{n,n}
-\end{bmatrix}
-$$
+	A_{n,1} & A_{n,2} & A_{n,3} & \cdots & A_{n,m}
+\end{bmatrix}. $$
 
 ## Transpos Matriks
 
@@ -62,17 +63,49 @@ Syarat untuk menjumlahkan dua matriks adalah kedua matriks tersebut berukuran sa
 
 $$ C_{i,j} = A_{i,j} + B_{i,j}. $$
 
+Sifat ini juga berlaku untuk pengurangan.
+
+> [!summary] Penjumlahan Dua Matriks
+> Misal matriks $A_{n \times m}$ dan matriks $B_{n \times m}$, maka $A + B$ adalah
+> 
+> $$ \begin{bmatrix}
+> 	A_{1,1} & A_{1,2} & \cdots \\
+> 	A_{2,1} & A_{2,2} & \cdots \\
+> 	\vdots  & \vdots  & \ddots
+> \end{bmatrix} + \begin{bmatrix}
+> 	B_{1,1} & B_{1,2} & \cdots \\
+> 	B_{2,1} & B_{2,2} & \cdots \\
+> 	\vdots  & \vdots  & \ddots
+> \end{bmatrix} = \begin{bmatrix}
+> 	A_{1,1} + B_{1,1} & A_{1,2} + B_{1,2} & \cdots \\
+> 	A_{2,1} + B_{2,1} & A_{2,2} + B_{2,2} & \cdots \\
+> 	\vdots  & \vdots  & \ddots
+> \end{bmatrix}. $$
+
 ## Perkalian Matriks
 
-### Perkalian Matriks dengan Konstanta
+### Perkalian Matriks dengan Bilangan
 
-Misalkan matriks $M$ dan matriks $N$ sehingga $N = kM$ ($k \in \mathbb{R}$), maka
+Misalkan matriks $M$, bilangan $k$, dan matriks $N$ sehingga $N = kM$, maka
 
 $$ N_{i,j} = kM_{i,j}. $$
 
+> [!summary] Perkalian Matriks dengan Bilangan
+> Untuk matriks $M$ dan bilangan $k$, maka $kM$ adalah
+> 
+> $$ k \begin{bmatrix}
+> 	M_{1,1} & M_{1,2} & \cdots \\
+> 	M_{2,1} & M_{2,2} & \cdots \\
+> 	\vdots  & \vdots  & \ddots
+> \end{bmatrix} = \begin{bmatrix}
+> 	kM_{1,1} & kM_{1,2} & \cdots \\
+> 	kM_{2,1} & kM_{2,2} & \cdots \\
+> 	\vdots  & \vdots  & \ddots
+> \end{bmatrix}. $$
+
 ### Perkalian Matriks dengan Matriks
 
-Syarat untuk mengalikan dua matriks $A$ dan $B$ adalah banyak *baris* matriks $A$ **harus sama** dengan banyak *kolom* matriks $B$,
+Syarat untuk mengalikan dua matriks $A$ dan $B$ adalah banyak ***kolom*** matriks $A$ **harus sama** dengan banyak ***baris*** matriks $B$,
 
 - $A_{p \times q}$
 - $B_{q \times r}$.
@@ -85,11 +118,24 @@ Pada baris $i$ kolom $j$ matriks $C$, fokuslah pada baris $i$ pada matriks $A$ d
 
 > [!warning] Perlu diperhatikan bahwa $AB$ tidak selalu sama dengan $BA$.
 
+> [!summary] Perkalian Matriks 3×2 dengan Matriks 2×3
+> $$ \begin{bmatrix}
+> 	a_{1,1} & a_{1,2} \\
+> 	a_{2,1} & a_{2,2} \\
+> 	a_{3,1} & a_{3,2}
+> \end{bmatrix} \begin{bmatrix}
+> 	b_{1,1} & b_{1,2} & b_{1,3} \\
+> 	b_{2,1} & b_{2,2} & b_{2,3}
+> \end{bmatrix} \\ 
+> = \begin{bmatrix}
+> 	a_{1,1}b_{1,1} + a_{1,2}b_{2,1} & a_{1,1}b_{1,2} + a_{2,2}b_{2,2} & a_{1,1}b_{1,3} + a_{1,2}b_{2,3} \\
+> 	a_{2,1}b_{1,1} + a_{2,2}b_{2,1} & a_{2,1}b_{1,2} + a_{2,2}b_{2,2} & a_{2,1}b_{1,3} + a_{2,2}b_{2,3} \\
+> 	a_{3,1}b_{1,1} + a_{3,2}b_{2,1} & a_{3,1}b_{1,2} + a_{3,2}b_{2,2} & a_{3,1}b_{1,3} + a_{3,2}b_{2,3} \\
+> \end{bmatrix} $$
+
 # Determinan Matriks
 
-Determinan matriks $M$ ditulis sebagai $\det M$ atau $|M|$.
-
-Matriks memiliki determinan jika ia adalah matriks persegi.
+Determinan matriks persegi $M$ ditulis sebagai $\det M$ atau $|M|$.
 
 Untuk matriks $2 \times 2$, misalkan matriks $M$ adalah
 
@@ -118,7 +164,9 @@ $$ N' = \begin{bmatrix} \begin{array}{ccc|cc}
 	g & h & i & g & h
 \end{array} \end{bmatrix} $$
 
-Determinannya adalah jumlah diagonal-diagonal utama dikurang jumlah diagonal-diagonal sekundernya,
+Determinannya adalah jumlah diagonal-diagonal utama dikurang jumlah diagonal-diagonal sekundernya[^diagonal-sekunder],
+
+[^diagonal-sekunder]: Diagonal dari kanan bawah ke kiri atas.
 
 $$ |N| = (aei + bfg + cdh) - (gec + hfa + idb). $$
 
@@ -132,6 +180,9 @@ Misalkan matriks persegi $M$ dan inversnya $M^{-1}$ sehingga
 $$ M^{-1}M = M M^{-1} = I $$
 
 di mana $I$ adalah matriks identitas.
+
+> [!info] Sifat
+> - $(AB)^{-1} = B^{-1} A^{-1}$
 
 ## Invers Matriks 2×2
 
@@ -153,18 +204,15 @@ $$ A^{-1} = \frac{1}{|A|} \begin{bmatrix}
 
 TK
 
-> [!info] Sifat
-> - $(AB)^{-1} = B^{-1} A^{-1}$
-
 # Sistem Persamaan Linear
 
-Misalkan matriks-matriks $A$, $B$, dan $Q$ sehingga
+Misalkan matriks-matriks $A$, $B$, dan $X$ sehingga
 
-$$ AQ = B, $$
+$$ AX = B, $$
 
 maka
 
-$$ Q = A^{-1}B. $$
+$$ X = A^{-1}B. $$
 
 Misalkan persamaan
 
