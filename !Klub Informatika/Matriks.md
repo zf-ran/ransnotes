@@ -202,7 +202,55 @@ $$ A^{-1} = \frac{1}{|A|} \begin{bmatrix}
 
 ## Invers Matriks 3×3
 
-TK
+Misalkan matriks $M$ berukuran $3 \times 3$. Pertama-tama, kita cari minor dari matriks $M$, anggap $M_\text{min}$.
+
+Minor dari suatu matriks adalah matriks berisi determinan-determinan dengan kolom dan baris yang hilang.
+
+Misalkan $M_\text{min}$,
+
+$$ M_\text{min} = \begin{bmatrix}
+	x_{1,1} & x_{1,2} & x_{1,3} \\
+	x_{2,1} & x_{2,2} & x_{2,3} \\
+	x_{3,1} & x_{3,2} & x_{3,3}
+\end{bmatrix}. $$
+
+Maka (sebagai contoh),
+
+$$ x_{1,1} = \begin{vmatrix}
+	M_{2,2} & M_{2,3} \\
+	M_{3,2} & M_{3,3}
+\end{vmatrix} $$
+
+di mana baris 1 dan kolom 1 hilang ($M_{1,\square}$ dan $M_{\square,1}$).
+
+Maka
+
+$$ x_{1,3} = \begin{vmatrix}
+	M_{2,1} & M_{2,2} \\
+	M_{3,1} & M_{3,2}
+\end{vmatrix}. $$
+
+Setelah mencari $M_\text{min}$, kita cari kofaktor dari matriks $M$, $M_\text{cof}$.
+
+$$ M_{\text{cof}(i, j)} = (-1)^{i+j} \times x_{i,j}. $$
+
+Atau pada matriks $3 \times 3$,
+
+$$ M_\text{cof} = \begin{bmatrix}
+	x_{1,1} & -x_{1,2} & x_{1,3} \\
+	-x_{2,1} & x_{2,2} & -x_{2,3} \\
+	x_{3,1} & -x_{3,2} & x_{3,3}.
+\end{bmatrix} $$
+
+Lalu, carilah adjugat[^adjugat] matriks $M$, $\operatorname{adj}(M)$.
+
+[^adjugat]:Adjugat dari suatu matriks $M$ adalah transpos dari kofaktor matriks $M$. Atau dapat dibilang
+
+	$$ \operatorname{adj}(M) = (M_\text{cof})^\mathrm{T} $$
+
+Maka invers matriks $M$ adalah
+
+$$ M^{-1} = \frac{1}{|M|} \operatorname{adj}(M). $$
 
 # Sistem Persamaan Linear
 
