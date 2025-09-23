@@ -61,11 +61,11 @@ Sehingga path menghasilkan tepat 4 huruf dari petak awal sampai petak akhir. Per
 Berapakah nilai $M$?
 
 Format jawaban:
-- Jika melibatkan perkalian konstan dengan variabel $N$, jawaban ditulis seperti $8N$,  $9N$, $13N$, dst.
-- Jika melibatkan penjumlahan atau pengurangan, jawaban ditulis seperti $7N+3$, $4N−5$, $4N+1$, dst.
+- Jika melibatkan perkalian konstan dengan variabel $N$, jawaban ditulis seperti `8N`,  `9N`, `13N`, dst.
+- Jika melibatkan penjumlahan atau pengurangan, jawaban ditulis seperti `7N+3`, `4N−5`, `4N+1`, dst.
 - Tidak boleh ada *white-space* pada jawaban.
 
-> [!success] $2N$
+> [!success] 2N
 
 ---
 
@@ -146,9 +146,11 @@ dengan $n = 3$ pada konteks ini.
 **Catatan penting:** Cari nilai $\alpha$ dan $\beta$ yang menghasilkan $L(\alpha, \beta)$ **sekecil mungkin terlebih dahulu,** baru kemudian dibulatkan sesuai permintaan soal. Saat sudah dibulatkan, solusinya belum tentu menjadi yang paling optimal lagi di presisi tersebut.
 
 > [!important]- Format Jawaban
-> **Tuliskan jawaban Anda dalam format:** `X.X; Y.Y`
-> 
-> - Dengan `X.X` adalah presisi 1 angka di belakang koma dari nilai $\alpha$; dan
+> **Tuliskan jawaban Anda dalam format** `X.X; Y.Y`
+>
+> Dengan
+>
+> - `X.X` adalah presisi 1 angka di belakang koma dari nilai $\alpha$; dan
 > - `Y.Y` adalah nilai $\beta$ dengan presisi 1 angka di belakang koma.
 > 
 > Sebagai contoh:
@@ -189,13 +191,13 @@ Rumus Euclidean distance dari dua buah vektor $(x_1,y_1)$ dan $(x_2, y_2)$ adala
 
 $$ \sqrt{(x_1 − x_2)^2 + (y_1 − y_2)^2}. $$
 
-> [!important] **Tuliskan jawaban dalam bentuk angka.**
+> [!important] Format jawaban dalam bentuk angka
 
 > [!success] 25
 
 **Soal 11** *(15 poin)* Berapa nilai vektor $\text{senang} + \text{kalah} - \text{menang}$?
 
-> [!important] Tuliskan jawaban dalam format `A B`, di mana hasil vektornya adalah $(A, B)$.
+> [!important] Format jawaban dalam bentuk `A B`, di mana hasil vektornya adalah $(A, B)$
 
 > [!success] 18 18
 
@@ -218,7 +220,7 @@ Diketahui bahwa ke-10 kata ini adalah terjemahan persis dari ke-10 kata bahasa I
 
 Temukan pasangan kata antara bahasa alien dan bahasa Indonesia, dengan memanfaatkan fakta bahwa struktur vektor antar kata di bahasa alien sama seperti di bahasa Indonesia.
 
-> [!important] Format jawaban huruf kecil semua.
+> [!important] Format jawaban huruf kecil semua
 
 **Soal 12** *(13 poin)* Gohok
 
@@ -308,13 +310,142 @@ Berikut merupakan contoh `padding = “same”` dan `stride = 1` dengan ukuran 
 
 Anda diminta untuk memprediksi ukuran akhir citra setelah melalui beberapa lapisan konvolusi dengan ukuran kernel, stride, dan padding yang berbeda.  
 
-> [!important] Format jawaban `A x B` di mana `A` dan `B` adalah banyak baris dan kolom berturut-turut citra $S$.
+> [!important]- Format Jawaban
+> Tulis jawaban dalam format `A x B`
+>
+> Di mana
+>
+> - `A` adalah banyak baris citra $\b S$; dan
+> - `B` adalah banyak kolom citra $\b S$.
+> 
+> Contohnya:
+> 
+> - Citra $\b S$ berukuran $7 \times 8$, tulislah `7 x 8`
 
 **Soal 22** *(20 poin)* Ukuran awal citra $\b I$ adalah $32 \times 32$.
 
 - Konvolusi 1: kernal $3 \times 3$, `padding = “same”`, `stride = 1`.
 
-Berapakah ukuran citra akhir $S$?
+Berapakah ukuran citra akhir $\b S$?
 
 > [!success] `32 x 32`
 
+**Soal 23** *(30 poin)* Ukuran citra awal $\b I$ adalah $32 \times 32$.
+
+- Konvolusi 1: kernel $3 \times 3$, `padding = “same”`, `stride = 1`.
+- Konvolusi 2: kernel $5 \times 5$, `padding = 0`, `stride = 2`.
+
+Berapakah ukuran citra akhir $\b S$?
+
+> [!success] `14 x 14`
+
+**Soal 24** *(40 poin)* Ukuran citra awal $\b I$ adalah $64 \times 64$.
+
+- Konvolusi 1: kernel $7 \times 7$, `padding = 3`, `stride = 2`.
+- Konvolusi 2: kernel $3 \times 3$, `padding = “same”`, `stride = 2`.
+- Konvolusi 3: kernel $1 \times 1$, `padding = 0`, `stride = 1`.
+
+Berapakah ukuran citra akhir $\b S$?
+
+> [!success] `16 x 16`
+
+**Soal 25** *(75 poin)* Ukuran citra awal $\b I$ adalah $128 \times 64$.
+
+- Konvolusi 1: kernel $7 \times 3$, `padding = (3, 1)`, `stride = (2, 1)`.
+- Konvolusi 2: kernel $5 \times 5$, `padding = 2`, `stride = 2`.
+- Konvolusi 3: kernel $3 \times 3$, `padding = “same”`, `stride = 1`.
+- Konvolusi 4: kernel $1 \times 7$, `padding = (0, 3)`, `stride = (1, 2)`.
+- Konvolusi 5: kernel $3 \times 3$, `padding = 0`, `stride = 2`.
+
+Berapakah ukuran citra akhir $\b S$?
+
+> [!success] `32 x 32`
+
+---
+
+**Soal 26–40** Barisan DNA tersusun oleh urutan nukleotida yang terdiri dari empat basa nitrogen: adenin (A), timin (T), guanin (G), dan sitosin (C). Diketahui sampel DNA dari 3 spesies berbeda sebagai berikut.
+
+| Urutan DNA   | Spesies |
+| ------------ | ------- |
+| `GATTATAAAGCA` | Kucing  |
+| `AATCTAATTATG` | Kucing  |
+| `ACAAAAAATTTC` | Kucing  |
+| `CATAAAGAAATA` | Kucing  |
+| `ACGACGCGATCG` | Bebek   |
+| `CGCGAGAGAGCG` | Bebek   |
+| `GCTGCGTGTCAG` | Bebek   |
+| `CGAGCTAGCAGC` | Bebek   |
+| `CCAGGGGAGCCC` | Ikan    |
+| `TTAGGTCAAGGC` | Ikan    |
+| `CGGTCCCCAAAG` | Ikan    |
+| `AGCCGGGGCAAG` | Ikan    |
+
+Anda diminta untuk membuat sebuah sistem yang dapat memprediksi spesies berdasarkan DNA yang diberikan dengan memanfaatkan data latih yang tersedia.
+
+Namun, karena sedang berlibur, Anda tidak memiliki waktu untuk membangun sistem kecerdasan buatan dari awal.
+
+Anda pun meyakini bahwa pola kemunculan basa nitrogren pada untaian DNA dari masing-masing spesies cukup berbeda sehingga sebenarnya dapat diklasifikasikan bahkan tanpa bantuan mesin atau komputer sekalipun.
+
+Diberikan beberapa untaian DNA berikut, tentukanlah spesiesnya (Kucing, Bebek, atau Ikan). 
+
+> [!important] Format pengisian hanya Kucing, Bebek, atau Ikan
+
+**Soal 26** *(13 poin)* CCGGCTCGTAAG
+
+> [!success] Ikan
+
+**Soal 27** *(13 poin)* CATGAAAATATA
+
+> [!success] Kucing
+
+**Soal 28** *(13 poin)* TAATAACACATA
+
+> [!success] Kucing
+
+**Soal 29** *(13 poin)* TCGCTCGCACGT
+
+> [!success] Bebek
+
+**Soal 30** *(13 poin)* GCACGCGCAGAT
+
+> [!success] Ikan
+
+**Soal 31** *(13 poin)* TTTCCCGCTGGG
+
+> [!success] Bebek
+
+**Soal 32** *(13 poin)* CGGGCTTCCCGG
+
+> [!success] Ikan
+
+**Soal 33** *(13 poin)* GTCACTATCACG
+
+> [!success] Bebek
+
+**Soal 34** *(13 poin)* CGAAATTTATTA
+
+> [!success] Kucing
+
+**Soal 35** *(13 poin)* GCGCTATATGCG
+
+> [!success] Ikan
+
+**Soal 36** *(13 poin)* GGCAGGTAGCCC
+
+> [!success] Ikan
+
+**Soal 37** *(13 poin)* ACAAATAAACCA
+
+> [!success] Kucing
+
+**Soal 38** *(13 poin)* ATGAGGGCCCCG
+
+> [!success] Ikan
+
+**Soal 39** *(13 poin)* AAAAACTATTAT
+
+> [!success] Kucing
+
+**Soal 40** *(13 poin)* CGCTCTAGCGCA
+
+> [!success] Bebek
