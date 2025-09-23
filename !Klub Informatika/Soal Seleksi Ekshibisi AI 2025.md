@@ -1,3 +1,7 @@
+> [!example]+ Detail
+> - **Total poin:** 1000
+> - **Jumlah soal:** 40
+
 # Pemecahan Masalah
 
 **Soal 1** *(40 poin)* Bilangan rasional adalah bilangan yang dapat dinyatakan sebagai hasil bagi dua bilangan bulat $\frac{p}{q}$​ dengan $q \neq 0$. Jika ditulis dalam bentuk desimal, bilangan rasional selalu memiliki representasi desimal yang berhenti (*terminating*) atau berulang (*repeating*). Contoh bilangan rasional: −8, 42.314, dan 42.
@@ -18,15 +22,15 @@ Jika kedua pemain bermain secara optimal, mana pernyataan yang paling benar?
 
 **Soal 2** *(80 poin)* Diberikan sebuah papan grid berukuran $7 \times 7$ yang diisi oleh huruf `I`, `O`, dan `A`. Anda sangat menyukai kata IOAI, dan penasaran ada berapa banyak kata IOAI yang dapat dibentuk pada papan ini?
 
-|     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- |
-| I   | I   | I   | **I**   | I   | I   | I   |
-| I   | O   | A   | **O**   | O   | A   | I   |
-| I   | O   | A   | **A**   | A   | A   | I   |
-| I   | O   | O   | **I**   | A   | O   | I   |
-| I   | O   | O   | O   | O   | O   | I   |
-| I   | O   | A   | A   | A   | O   | I   |
-| I   | I   | I   | I   | I   | I   | I   |
+```
+I I I I I I I
+I O A O O A I
+I O A A A A I
+I O O I A O I
+I O O O O O I
+I O A A A O I
+I I I I I I I
+```
 
 Untuk menjawab pertanyaan ini, kita perlu mendefinisikan apa yang dimaksud dengan sebuah path “4 huruf” pada papan.
 
@@ -35,11 +39,11 @@ Untuk menjawab pertanyaan ini, kita perlu mendefinisikan apa yang dimaksud denga
 3. Bergerak lagi ke salah satu dari 8 tetangga.
 4. Bergerak sekali lagi ke salah satu dari 8 tetangga, lalu berhenti.
 
-Sehingga path menghasilkan tepat 4 huruf dari petak awal sampai petak akhir. Perhatikan bahwa suatu petak **boleh** dikunjungi lebih dari satu kali. Sebagai ilustrasi, berikut merupakan contoh pembentukan kata IOAI yang sudah ditandai ~~berwarna merah~~ cetak tebal.
+Sehingga path menghasilkan tepat 4 huruf dari petak awal sampai petak akhir. Perhatikan bahwa suatu petak **boleh** dikunjungi lebih dari satu kali. Sebagai ilustrasi, berikut merupakan contoh pembentukan kata IOAI ~~yang sudah ditandai berwarna merah cetak tebal~~ <u>yaitu dari baris 1 kolom 1 hingga baris 1 kolom 4</u>.
 
-**Tuliskan jawaban dalam bentuk angka.**
+> [!important] Format jawaban dalam bentuk angka
 
-> [!SUCCESS] 169
+> [!success] 169
 
 ---
 
@@ -60,10 +64,10 @@ Sehingga path menghasilkan tepat 4 huruf dari petak awal sampai petak akhir. Per
 
 Berapakah nilai $M$?
 
-Format jawaban:
-- Jika melibatkan perkalian konstan dengan variabel $N$, jawaban ditulis seperti `8N`,  `9N`, `13N`, dst.
-- Jika melibatkan penjumlahan atau pengurangan, jawaban ditulis seperti `7N+3`, `4N−5`, `4N+1`, dst.
-- Tidak boleh ada *white-space* pada jawaban.
+> [!important]- Format Jawaban
+> - Jika melibatkan perkalian konstan dengan variabel $N$, jawaban ditulis seperti `8N`,  `9N`, `13N`, dst.
+> - Jika melibatkan penjumlahan atau pengurangan, jawaban ditulis seperti `7N+3`, `4N−5`, `4N+1`, dst.
+> - Tidak boleh ada *white-space* pada jawaban.
 
 > [!success] 2N
 
@@ -85,7 +89,10 @@ Bioskop ini juga menyediakan 2 jenis snack: *popcorn* (🍿) dan *soft drink* (�
 | Film Keluarga 👨‍👩‍👧‍👦 | 45%                   | 20%                     | 15%                        | 20%                              |
 | Film Horor 👻             | 50%                   | 10%                     | 10%                        | 30%                              |
 
-**Tuliskan jawaban dalam bentuk bilangan bulat tanpa persentase.** Jika hasil probabilitas dinyatakan dalam persen desimal, **bulatkan ke bawah.** Misalkan, `64.71%` menjadi `64`.
+> [!important]- Format Jawaban
+> **Tuliskan jawaban dalam bentuk bilangan bulat tanpa persentase.**
+> 
+> Jika hasil probabilitas dinyatakan dalam persen desimal, **bulatkan ke bawah**. Misalkan jawabannya $64.71\%$, tulislah `64`
 
 **Soal 5** *(40 poin)* Kemungkinan pengunjung yang membeli *popcorn*. P(🍿) = ….
 
