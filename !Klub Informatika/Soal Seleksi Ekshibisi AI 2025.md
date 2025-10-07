@@ -181,12 +181,12 @@ $$ \begin{align*}
 	\text{ratu} &= (32, 29) \\
 	\text{sedih} &= (18, 19) \\
 	\text{menang} &= (26, 8) \\
-	\text{kalah} &= (23, 16)
+	\text{kalah} &= (23, 16).
 \end{align*} $$
 
 Vektor-vektor ini bisa dimanipulasi dengan operasi tambah dan kurang.  
 
-Contoh terkenal:
+Contoh terkenal,
 
 $$ \text{raja} + \text{wanita} − \text{pria} \approx \text{ratu}, \quad \text{ayah} + \text{wanita} − \text{pria} \approx \text{ibu}. $$
 
@@ -271,11 +271,13 @@ Temukan pasangan kata antara bahasa alien dan bahasa Indonesia, dengan memanfaat
 
 ---
 
-**Soal 22–25** Sebuah citra digital $\b I$ dapat direpresentasikan sebagai matriks berukuran $x \times y$, dimana setiap elemen matriks $\b I_{i,j}$​ menyatakan nilai piksel pada baris ke-$i$ dan kolom ke-$j$.
+# Konvolusi
 
-**Kernel** adalah matriks kecil (misalnya $3 \times 3$ atau $5 \times 5$) yang digeser di atas citra. Kernel $\b K$ adalah sebuah matriks kecil berukuran $m \times n$ yang berfungsi untuk mengekstrak pola tertentu dari citra $\b I$, dimana kernel $\b K$ biasanya berukuran lebih kecil dibandingkan dengan citra $\b I$, yakni $x \geq m$ dan $y \geq n$.
+**Soal 22–25** Sebuah citra digital $\b I$ dapat direpresentasikan sebagai matriks berukuran $x \times y$, di mana setiap elemen matriks $\b I_{i,j}$​ menyatakan nilai piksel pada baris ke-$i$ dan kolom ke-$j$.
 
-**Konvolusi** adalah operasi _dot product_ (yakni, perkalian antarelemen di kedua matriks yang kemudian dijumlahkan) antara kernel $\b K$ dan potongan citra dari $\b I$, yakni *patch* (submatriks) $\b J$, dimana ukuran patch $\b J$ sama dengan kernel $\b K$. Jika ada dua vektor dengan panjang yang sama,
+**Kernel** adalah matriks kecil (misalnya $3 \times 3$ atau $5 \times 5$) yang digeser di atas citra. Kernel $\b K$ adalah sebuah matriks kecil berukuran $m \times n$ yang berfungsi untuk mengekstrak pola tertentu dari citra $\b I$, di mana kernel $\b K$ biasanya berukuran lebih kecil dibandingkan dengan citra $\b I$, yakni $x \geq m$ dan $y \geq n$.
+
+**Konvolusi** adalah operasi _dot product_ (yakni, perkalian antarelemen di kedua matriks yang kemudian dijumlahkan) antara kernel $\b K$ dan potongan citra dari $\b I$, yakni *patch* (submatriks) $\b J$, di mana ukuran patch $\b J$ sama dengan kernel $\b K$. Jika ada dua vektor dengan panjang yang sama,
 
 $$ \b a = [a_1, a_2, \dots, a_n], \quad \b b = [b_1, b_2, ..., b_n]. $$
 
@@ -285,7 +287,7 @@ $$ \b a \cdot \b b = \sum_{i=1}^n a_i b_i = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n
 
 Proses konvolusi sendiri dapat didefinisikan sebagai berikut. Konvolusi pada keseluruhan citra $\b I$ menggunakan kernel $\b K$ bisa dinotasikan sebagai $\b K * \b I$, di mana hasilnya akan menghasilkan citra keluaran $\b S$.
 
-Dari gambar terlihat bahwa proses dot product terjadi antara kernel $\b K$ dan patch $\b J$ dimana masing-masing elemen dari $\b K$ dan $\b J$ dikalikan, kemudian hasilnya dijumlahkan.  
+Dari gambar terlihat bahwa proses dot product terjadi antara kernel $\b K$ dan patch $\b J$ di mana masing-masing elemen dari $\b K$ dan $\b J$ dikalikan, kemudian hasilnya dijumlahkan.  
 
 Berikut merupakan contoh ukuran gambar input $3 \times 4$ dan kernel $2 \times 2$ yang menghasilkan ukuran gambar output $2 \times 3$.
 
@@ -369,6 +371,8 @@ Berapakah ukuran citra akhir $\b S$?
 > [!success] `32 x 32`
 
 ---
+
+# Pemodelan Bahasa
 
 **Soal 26–40** Barisan DNA tersusun oleh urutan nukleotida yang terdiri dari empat basa nitrogen: adenin (A), timin (T), guanin (G), dan sitosin (C). Diketahui sampel DNA dari 3 spesies berbeda sebagai berikut.
 

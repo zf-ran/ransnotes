@@ -1,84 +1,85 @@
-$\newcommand{\tp}{\mathrm{T}}$
-Matriks adalah susunan bilangan (entri) dalam kolom dan baris, variabel matriks ditulis dengan huruf kapital. Matriks dapat ditulis dengan $[\dots]$ atau $(\dots)$. Misalnya matriks $A$,
+$\newcommand{\b}[1]{\mathbf{#1}}$
 
-$$ A = \begin{bmatrix} a & b & c \\ x & y & z \end{bmatrix}. $$
+Matriks adalah susunan bilangan (entri) dalam kolom dan baris, variabel matriks ditulis dengan huruf kapital tebal. Matriks dapat ditulis dengan $[\dots]$ atau $(\dots)$. Misalnya matriks $\b A$,
 
-Matriks $A$ memiliki 2 baris dan 3 kolom, maka matriks $A$ **berukuran** (berordo) $2 \times 3$, atau dapat ditulis $A_{2\times3}$. Ukuran matriks $M$ ditulis sebagai $M_{\text{baris}\times\text{kolom}}$.
+$$ \b A = \begin{bmatrix} a & b & c \\ x & y & z \end{bmatrix}. $$
+
+Matriks $\b A$ memiliki 2 baris dan 3 kolom, maka matriks $\b A$ **berukuran** (berordo) $2 \times 3$, atau dapat ditulis $\b A_{2\times3}$. Ukuran matriks $\b M$ ditulis sebagai $\b M_{\text{baris}\times\text{kolom}}$.
 
 # Matriks Persegi
 
-Sebuah matriks disebut sebagai **matriks persegi** jika banyak baris dan banyak kolomnya sama, contohnya matriks $M$,
+Sebuah matriks disebut sebagai **matriks persegi** jika banyak baris dan banyak kolomnya sama, contohnya matriks $\b M_{3\times3}$,
 
-$$ M_{3\times3} = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}. $$
+$$ \b M = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}. $$
 
 # Matriks Identitas
 
-Untuk matriks persegi $A$, ada sebuah **matriks identitas** $I$ yang di mana
+Untuk matriks persegi $\b A$, ada sebuah **matriks identitas** $\b I$ yang di mana
 
-$$ IA = A. $$
+$$ \b I \b A = \b A \b I = \b A. $$
 
-Notasi $IA$ melambangkan perkalian matriks $I$ dan matriks $A$, [[#Perkalian Matriks dengan Matriks]].
+Notasi $\b I \b A$ melambangkan perkalian matriks $\b I$ dan matriks $\b A$,  (lihat: [[#Perkalian Matriks dengan Matriks]]).
 
 Matriks identitas tersebut adalah matriks yang entri pada diagonal utama (dari kiri atas ke kanan bawah) bernilai $1$, dan selainnya $0$.
 
 Didapat identitas matriks $2\times2$ adalah
 
-$$ I_{2\times2} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}. $$
+$$ \b I_{2\times2} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}. $$
 
 Dan untuk identitas matriks $3\times3$ adalah
 
-$$ I_{3\times3} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}. $$
+$$ \b I_{3\times3} = \begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}. $$
 
 # Operasi Matriks
 
-Notasi entri matriks $A$ pada baris $i$ dan kolom $j$ akan ditulis sebagai $A_{i,j}$, atau dapat dijabarkan sebagai berikut.
+Notasi entri matriks $\b A$ pada baris $i$ dan kolom $j$ akan ditulis sebagai $\b A_{i,j}$, atau dapat dijabarkan sebagai berikut.
 
-$$ A_{n \times m} =
+$$ \b A_{n \times m} =
 \begin{bmatrix}
-	A_{1,1} & A_{1,2} & A_{1,3} & \cdots & A_{1,m} \\
-	A_{2,1} & A_{2,2} & A_{2,3} & \cdots & A_{2,m} \\
-	A_{3,1} & A_{3,2} & A_{3,3} & \cdots & A_{3,m} \\
+	\b A_{1,1} & \b A_{1,2} & \b A_{1,3} & \cdots & \b A_{1,m} \\
+	\b A_{2,1} & \b A_{2,2} & \b A_{2,3} & \cdots & \b A_{2,m} \\
+	\b A_{3,1} & \b A_{3,2} & \b A_{3,3} & \cdots & \b A_{3,m} \\
 	\vdots & \vdots & \vdots & \ddots & \vdots \\
-	A_{n,1} & A_{n,2} & A_{n,3} & \cdots & A_{n,m}
+	\b A_{n,1} & \b A_{n,2} & \b A_{n,3} & \cdots & \b A_{n,m}
 \end{bmatrix}. $$
 
 ## Transpos Matriks
 
-Transpos matriks adalah sebuah operator yang mengubah setiap baris menjadi kolom, dan setiap kolom menjadi baris. Transpos matriks $M$ adalah $M^\tp$.
+Transpos matriks adalah sebuah operator yang mengubah setiap baris menjadi kolom, dan setiap kolom menjadi baris. Transpos matriks $M$ adalah $M^\top$.
 
-Misalkan matriks $M$ adalah
+Misalkan matriks $\b M$ adalah
 
-$$ M = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}, $$
+$$ \b M = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{bmatrix}, $$
 
-maka transpos matriks $M$ adalah
+maka transpos matriks $\b M$ adalah
 
-$$ M^\tp = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}. $$
+$$ \b M^\top = \begin{bmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{bmatrix}. $$
 
 > [!info] Sifat
-> - $(AB)^\tp = B^\tp A^\tp$
+> - $(\b A \b B)^\top = \b B^\top \b A^\top$
 
 ## Penjumlahan Matriks
 
-Syarat untuk menjumlahkan dua matriks adalah kedua matriks tersebut berukuran sama. Misalkan matriks $A_{n \times n}$, matriks $B_{n \times n}$, dan matriks $C = A + B$, maka
+Syarat untuk menjumlahkan dua matriks adalah kedua matriks tersebut berukuran sama. Misalkan matriks $\b A_{n \times n}$, matriks $\b B_{n \times n}$, dan matriks $\b R = \b A + \b B$, maka
 
-$$ C_{i,j} = A_{i,j} + B_{i,j}. $$
+$$ \b R_{i,j} = \b A_{i,j} + \b B_{i,j}. $$
 
 Sifat ini juga berlaku untuk pengurangan.
 
 > [!summary] Penjumlahan Dua Matriks
-> Misal matriks $A_{n \times m}$ dan matriks $B_{n \times m}$, maka $A + B$ adalah
+> Misal matriks $\b A_{n \times m}$ dan matriks $\b B_{n \times m}$, maka $\b A + \b B$ adalah
 > 
 > $$ \begin{bmatrix}
-> 	A_{1,1} & A_{1,2} & \cdots \\
-> 	A_{2,1} & A_{2,2} & \cdots \\
+> 	\b A_{1,1} & \b A_{1,2} & \cdots \\
+> 	\b A_{2,1} & \b A_{2,2} & \cdots \\
 > 	\vdots  & \vdots  & \ddots
 > \end{bmatrix} + \begin{bmatrix}
-> 	B_{1,1} & B_{1,2} & \cdots \\
-> 	B_{2,1} & B_{2,2} & \cdots \\
+> 	\b B_{1,1} & \b B_{1,2} & \cdots \\
+> 	\b B_{2,1} & \b B_{2,2} & \cdots \\
 > 	\vdots  & \vdots  & \ddots
 > \end{bmatrix} = \begin{bmatrix}
-> 	A_{1,1} + B_{1,1} & A_{1,2} + B_{1,2} & \cdots \\
-> 	A_{2,1} + B_{2,1} & A_{2,2} + B_{2,2} & \cdots \\
+> 	\b A_{1,1} + \b B_{1,1} & \b A_{1,2} + \b B_{1,2} & \cdots \\
+> 	\b A_{2,1} + \b B_{2,1} & \b A_{2,2} + \b B_{2,2} & \cdots \\
 > 	\vdots  & \vdots  & \ddots
 > \end{bmatrix}. $$
 
@@ -86,35 +87,35 @@ Sifat ini juga berlaku untuk pengurangan.
 
 ### Perkalian Matriks dengan Bilangan
 
-Misalkan matriks $M$, bilangan $k$, dan matriks $N$ sehingga $N = kM$, maka
+Misalkan matriks $\b M$, bilangan $k$, dan matriks $\b N$ sehingga $\b N = k \b M$, maka
 
-$$ N_{i,j} = kM_{i,j}. $$
+$$ \b N_{i,j} = k \b M_{i,j}. $$
 
 > [!summary] Perkalian Matriks dengan Bilangan
-> Untuk matriks $M$ dan bilangan $k$, maka $kM$ adalah
+> Untuk matriks $\b M$ dan bilangan $k$, maka $k \b M$ adalah
 > 
 > $$ k \begin{bmatrix}
-> 	M_{1,1} & M_{1,2} & \cdots \\
-> 	M_{2,1} & M_{2,2} & \cdots \\
+> 	\b M_{1,1} & \b M_{1,2} & \cdots \\
+> 	\b M_{2,1} & \b M_{2,2} & \cdots \\
 > 	\vdots  & \vdots  & \ddots
 > \end{bmatrix} = \begin{bmatrix}
-> 	kM_{1,1} & kM_{1,2} & \cdots \\
-> 	kM_{2,1} & kM_{2,2} & \cdots \\
+> 	k \b M_{1,1} & k \b M_{1,2} & \cdots \\
+> 	k \b M_{2,1} & k \b M_{2,2} & \cdots \\
 > 	\vdots  & \vdots  & \ddots
 > \end{bmatrix}. $$
 
 ### Perkalian Matriks dengan Matriks
 
-Syarat untuk mengalikan dua matriks $A$ dan $B$ adalah banyak ***kolom*** matriks $A$ **harus sama** dengan banyak ***baris*** matriks $B$,
+Syarat untuk mengalikan dua matriks $\b A$ dan $\b B$ adalah banyak ***kolom*** matriks $\b A$ **harus sama** dengan banyak ***baris*** matriks $\b B$,
 
-- $A_{p \times q}$
-- $B_{q \times r}$.
+- $\b A_{p \times q}$
+- $\b B_{q \times r}$.
 
-Misalkan hasil perkalian matriks $A$ dan $B$ adalah matriks $C$, maka $C$ berukuran $p \times r$.
+Misalkan hasil perkalian matriks $\b A$ dan $\b B$ adalah matriks $\b R$, maka $\b R$ berukuran $p \times r$.
 
-$$ C_{i,j} = A_{i,1}B_{1,j} + A_{i,2}B_{2,j} + \cdots + A_{i,n}B_{n,j}. $$
+$$ \b R_{i,j} = \b A_{i,1} \b B_{1,j} + \b A_{i,2} \b B_{2,j} + \cdots + \b A_{i,n} \b B_{n,j}. $$
 
-Pada baris $i$ kolom $j$ matriks $C$, fokuslah pada baris $i$ pada matriks $A$ dan kolom $j$ pada matriks $B$.
+Pada baris $i$ kolom $j$ matriks $\b C$, fokuslah pada baris $i$ pada matriks $\b A$ dan kolom $j$ pada matriks $\b B$.
 
 > [!warning] Perlu diperhatikan bahwa $AB$ tidak selalu sama dengan $BA$.
 
@@ -135,22 +136,22 @@ Pada baris $i$ kolom $j$ matriks $C$, fokuslah pada baris $i$ pada matriks $A$ d
 
 # Determinan Matriks
 
-Determinan matriks persegi $M$ ditulis sebagai $\det M$ atau $|M|$.
+Determinan matriks persegi $\b M$ ditulis sebagai $\det \b M$ atau $|\b M|$.
 
-Untuk matriks $2 \times 2$, misalkan matriks $M$ adalah
+Untuk matriks $2 \times 2$, misalkan matriks $\b M$ adalah
 
-$$ M_{2\times2} = \begin{bmatrix}
+$$ \b M = \begin{bmatrix}
 	a & b \\
 	c & d
 \end{bmatrix}, $$
 
-maka determinan matriks $M$ adalah
+maka determinan matriks $\b M$ adalah
 
-$$ |M| = ad - bc. $$
+$$ |\b M| = ad - bc. $$
 
-Misalkan $N$ adalah matriks $3 \times 3$,
+Misalkan $\b N$ adalah matriks $3 \times 3$,
 
-$$ N_{3\times3} = \begin{bmatrix}
+$$ \b N = \begin{bmatrix}
 	a & b & c \\
 	d & e & f \\
 	g & h & i
@@ -158,7 +159,7 @@ $$ N_{3\times3} = \begin{bmatrix}
 
 Tambah 2 kolom bantu di paling kanan, yaitu kolom 1 dan kolom 2,
 
-$$ N' = \begin{bmatrix} \begin{array}{ccc|cc}
+$$ \b N' = \begin{bmatrix} \begin{array}{ccc|cc}
 	a & b & c & a & b \\
 	d & e & f & d & e \\
 	g & h & i & g & h
@@ -168,47 +169,47 @@ Determinannya adalah jumlah diagonal-diagonal utama dikurang jumlah diagonal-dia
 
 [^diagonal-sekunder]: Diagonal dari kanan bawah ke kiri atas.
 
-$$ |N| = (aei + bfg + cdh) - (gec + hfa + idb). $$
+$$ |\b N| = (aei + bfg + cdh) - (gec + hfa + idb). $$
 
 > [!info] Sifat
-> - $|AB| = |A| \cdot |B|$
+> - $|\b A \b B| = |\b A| \cdot |\b B|$
 
 # Invers Matriks
 
-Misalkan matriks persegi $M$ dan inversnya $M^{-1}$ sehingga
+Misalkan matriks persegi $\b M$ dan inversnya $\b M^{-1}$ sehingga
 
-$$ M^{-1}M = M M^{-1} = I $$
+$$ \b M^{-1}\b M = \b M \b M^{-1} = \b I $$
 
-di mana $I$ adalah matriks identitas.
+di mana $\b I$ adalah matriks identitas.
 
 > [!info] Sifat
-> - $(AB)^{-1} = B^{-1} A^{-1}$
+> - $(\b A \b B)^{-1} = \b B^{-1} \b A^{-1}$
 
 ## Invers Matriks 2×2
 
-Misalkan matriks $A$ adalah
+Misalkan matriks $\b A$ adalah
 
-$$ A = \begin{bmatrix}
+$$ \b A = \begin{bmatrix}
 	a & b \\
 	c & d
 \end{bmatrix}, $$
 
-maka invers matriks $A$ adalah
+maka invers matriks $\b A$ adalah
 
-$$ A^{-1} = \frac{1}{|A|} \begin{bmatrix}
+$$ \b A^{-1} = \frac{1}{|\b A|} \begin{bmatrix}
 	d & -b \\
 	-c & a
 \end{bmatrix}. $$
 
 ## Invers Matriks 3×3
 
-Misalkan matriks $M$ berukuran $3 \times 3$. Pertama-tama, kita cari minor dari matriks $M$, anggap $M_\text{min}$.
+Misalkan matriks $\b M$ berukuran $3 \times 3$. Pertama-tama, kita cari minor dari matriks $\b M$, misalkan $\operatorname{minor}(\b M)$.
 
 Minor dari suatu matriks adalah matriks berisi determinan-determinan dengan kolom dan baris yang hilang.
 
-Misalkan $M_\text{min}$,
+Misalkan $\operatorname{minor}(\b M)$,
 
-$$ M_\text{min} = \begin{bmatrix}
+$$ \operatorname{minor}(\b M) = \begin{bmatrix}
 	x_{1,1} & x_{1,2} & x_{1,3} \\
 	x_{2,1} & x_{2,2} & x_{2,3} \\
 	x_{3,1} & x_{3,2} & x_{3,3}
@@ -217,54 +218,67 @@ $$ M_\text{min} = \begin{bmatrix}
 Maka (sebagai contoh),
 
 $$ x_{1,1} = \begin{vmatrix}
-	M_{2,2} & M_{2,3} \\
-	M_{3,2} & M_{3,3}
+	\b M_{2,2} & \b M_{2,3} \\
+	\b M_{3,2} & \b M_{3,3}
 \end{vmatrix} $$
 
-di mana baris 1 dan kolom 1 hilang ($M_{1,\square}$ dan $M_{\square,1}$).
+di mana baris 1 dan kolom 1 hilang ($\b M_{1,\square}$ dan $\b M_{\square,1}$).
 
 Maka
 
 $$ x_{1,3} = \begin{vmatrix}
-	M_{2,1} & M_{2,2} \\
-	M_{3,1} & M_{3,2}
+	\b M_{2,1} & \b M_{2,2} \\
+	\b M_{3,1} & \b M_{3,2}
 \end{vmatrix}. $$
 
-Setelah mencari $M_\text{min}$, kita cari kofaktor dari matriks $M$, $M_\text{cof}$.
+Setelah mencari $\operatorname{minor}(\b M)$, kita cari kofaktor dari matriks $\b M$, $\operatorname{cof}(\b M)$.
 
-$$ M_{\text{cof}(i, j)} = (-1)^{i+j} \times x_{i,j}. $$
+$$ \operatorname{cof}(\b M)_{i,j} = (-1)^{i+j} \times x_{i,j}. $$
 
 Atau pada matriks $3 \times 3$,
 
-$$ M_\text{cof} = \begin{bmatrix}
+$$ \operatorname{cof}(\b M) = \begin{bmatrix}
 	x_{1,1} & -x_{1,2} & x_{1,3} \\
 	-x_{2,1} & x_{2,2} & -x_{2,3} \\
 	x_{3,1} & -x_{3,2} & x_{3,3}.
 \end{bmatrix} $$
 
-Lalu, carilah adjugat[^adjugat] matriks $M$, $\operatorname{adj}(M)$.
+Lalu, carilah adjugat[^adjugat] (atau adjoint) matriks $\b M$, $\operatorname{adj}(\b M)$.
 
-[^adjugat]:Adjugat dari suatu matriks $M$ adalah transpos dari kofaktor matriks $M$. Atau dapat dibilang
+[^adjugat]:Adjugat dari suatu matriks $\b M$ adalah transpos dari kofaktor matriks $\b M$. Atau dapat dibilang
 
-	$$ \operatorname{adj}(M) = (M_\text{cof})^\mathrm{T} $$
+	$$ \operatorname{adj}(\b M) = \operatorname{cof}(\b M)^\top $$
 
-Maka invers matriks $M$ adalah
+Maka invers matriks $\b M$ adalah
 
-$$ M^{-1} = \frac{1}{|M|} \operatorname{adj}(M). $$
+$$ \b M^{-1} = \frac{1}{|\b M|} \operatorname{adj}(\b M). $$
 
 # Sistem Persamaan Linear
 
-Misalkan matriks-matriks $A$, $B$, dan $X$ sehingga
+Misalkan matriks $\b K$, vektor $\b x$, dan vektor $\b h$ sehingga
 
-$$ AX = B, $$
+$$ \b K \b x = \b h, $$
 
 maka
 
-$$ X = A^{-1}B. $$
+$$ \b x = \b K^{-1} \b h, $$
+
+di mana
+
+- matriks $\b K$ adalah matriks koefisien dari variabel-variabel;
+- vektor $\b x$ adalah vektor variabel-variabel; dan
+- vektor $\b h$ adalah hasil dari persamaan-persamaan,
+
+di mana
+
+- $\b K \in \mathbb{R}^{n \times n}$; dan
+- $\b x , \b h \in \mathbb{R}^n$,
+
+di mana $n$ adalah banyak variabel.
 
 Misalkan persamaan
 
-- $2x + 3y = 11$
+- $2x + 3y = 11$; dan
 - $3x - 2y = 10$.
 
 Ubah ke bentuk matriks,
@@ -284,15 +298,75 @@ $$ \begin{bmatrix}
 
 Maka carilah invers dari matriks koefisien, sehingga
 
-$$ \begin{bmatrix}
-	x \\
-	y
-\end{bmatrix} =
-\begin{bmatrix}
-	2 & 3 \\
-	3 & -2
-\end{bmatrix}^{-1}
-\begin{bmatrix}
-	11 \\
-	10
+$$ \begin{align*}
+	\begin{bmatrix}
+		x \\
+		y
+	\end{bmatrix} &=
+	\begin{bmatrix}
+		2 & 3 \\
+		3 & -2
+	\end{bmatrix}^{-1}
+	\begin{bmatrix}
+		11 \\
+		10
+	\end{bmatrix} \\
+	&= \frac{1}{-13} \begin{bmatrix}
+		-2 & -3 \\
+		-3 & 2
+	\end{bmatrix} \begin{bmatrix}
+		11 \\
+		10
+	\end{bmatrix} \\
+	\begin{bmatrix}
+		x \\
+		y
+	\end{bmatrix} &= \begin{bmatrix}
+		4 \\
+		1
+	\end{bmatrix}
+\end{align*} $$
+
+Maka didapat hasilnya $x = 4$, dan $y = 1$.
+
+---
+
+# Sifat-Sifat Operasi Matriks
+
+Diketahui matriks $\b A, \b B, \b C$, dan bilangan $k, \ell \in \mathbb{R}$:
+
+- $\b A + \b B = \b B + \b A$
+- $(\b A + \b B) + \b C = \b A + (\b B + \b C)$
+- $k(\b A + \b B) = k \b A + k \b B$
+- $(k + \ell) \b A = k \b A + \ell \b A$
+- $\b A(\b B + \b C) = \b A \b B + \b A \b C$
+- $(\b A \b B) \b C = \b A (\b B \b C)$
+- $k(\b A \b B) = \b A (k \b B)$
+
+Misalkan matriks
+
+$$ \b 0 = \begin{bmatrix}
+	0 & 0 & \cdots & 0 \\
+	0 & 0 & \cdots & 0 \\
+	\vdots & \vdots & \ddots & \vdots \\
+	0 & 0 & \cdots & 0
 \end{bmatrix}. $$
+
+- $\b 0 + \b M = \b M + \b 0$
+- $\b 0 \b M = \b M \b 0 = \b 0$
+
+Untuk $n, m \in \mathbb{N}$:
+
+- $(A^\top)^\top = A$
+- $(\b A + \b B)^\top = \b A^\top + \b B^\top$
+- $(k \b A)^\top = k \b A^\top$
+- $(\b A \b B)^\top = \b B^\top \b A^\top$
+- $\b A^n \b A^m = \b A^{n + m}$
+
+Untuk matriks $\b M, \b N$ yang memiliki invers:
+
+- $(\b M^{-1})^{-1} = \b M$
+- $(\b M^n)^{-1} = (\b M^{-1})^n$
+- $(k \b M)^{-1} = \frac{1}{k} \b M^{-1}$
+- $(\b M^\top)^{-1} = (\b M^{-1})^\top$
+- $(\b M \b N)^{-1} = \b N^{-1} \b M^{-1}$
