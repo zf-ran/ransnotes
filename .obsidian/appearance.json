@@ -5,16 +5,17 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
+    "math",
     "variable-ordered-list",
     "print",
     "inter-complete",
     "no-wrap-code-block",
     "no-strike-task",
-    "math",
-    "left-aligned-math"
+    "left-aligned-math",
+    "jetbrainsmono-nerd-font"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",
   "interfaceFontFamily": "Inter Complete",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code"
 }

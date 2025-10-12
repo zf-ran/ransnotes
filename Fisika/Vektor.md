@@ -221,7 +221,7 @@ Sekarang untuk mencari sudutnya, gunakan $\tan$ (lebih tepat inversnya), karena 
 
 $$ \begin{align*}
 	\tan \Phi &= \frac{r_y}{r_x} \\
-	&= \tan^{-1}\left(\frac{r_y}{r_x}\right).
+	\Phi &= \tan^{-1}\left(\frac{r_y}{r_x}\right).
 \end{align*} $$
 
 Namun, perlu hati-hati, karena $\tan^{-1}$ memiliki range di antara $-90^\circ$ dan $90^\circ$. Bisa jadi sudut kita lebih dari $90^\circ$ dan kurang dari $-90^\circ$.
@@ -281,3 +281,4 @@ $$ \begin{align*}
 	&= (a_yb_z - a_zb_y)\i + (a_xb_z - a_xb_x)\j + (a_xb_y - a_yb_x)\k.
 \end{align*} $$
 
+Untuk bentuk di atas, perlu belajar tentang matriks dan transformasi linear.
