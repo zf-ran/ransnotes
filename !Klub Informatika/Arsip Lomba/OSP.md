@@ -146,7 +146,7 @@
 	- [ ] 1780
 	- [ ] 1680
 	- [ ] 1580
-14. Andi menemukan suatu permainan yang memiliki 10 pertanyaan di dalamnya. Beberapa pertanyaan hanya dapat dijawab apabila sudah berhasil menyelesaikan salah satu pertanyaan lain. Jika suatu pertanyaan $A$ memiliki syarat $B, C, D$, maka Andi baru dapat menjawab pertanyaan $A$ jika sudah berhasil menyelesaikan salah satu dari $B$, $C$, dan $D$. Syarat ini dituliskan dalam notasi $A: [B, C, D]$.
+14. Andi menemukan suatu permainan yang memiliki 10 pertanyaan di dalamnya. Beberapa pertanyaan hanya dapat dijawab apabila sudah berhasil menyelesaikan salah satu pertanyaan lain. Jika suatu pertanyaan $A$ memiliki syarat $S_1, S_2, S_3, ...$, maka Andi baru dapat menjawab pertanyaan $A$ jika sudah berhasil menyelesaikan salah satu dari $S_1, S_2, S_3, ...$. Syarat ini dituliskan dalam notasi $A: [S_1, S_2, S_3, ...]$.
 
 	Selengkapnya, permainan itu mempunyai syarat sebagai berikut.
 	- $1: [2, 3]$

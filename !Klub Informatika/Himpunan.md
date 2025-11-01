@@ -34,3 +34,11 @@ Metode untuk menghitung banyak anggota dalam gabungan beberapa himpunan.
 	$$ |A \cup B| = |A| + |B| - |A \cap B| $$
 - **Tiga Himpunan:**
 	$$ |A \cup B \cup C| = |A| + |B| + |C| - (|A \cap B| + |A \cap C| + |B \cap C|) + |A \cap B \cap C| $$
+
+Untuk $n$ himpunan $S_i$ untuk $i = 1, 2, 3, ..., n$,
+
+- Jumlah kardinalitas $n$ himpunan.
+- Kurangi dengan kardinalitas setiap kombinasi irisan dua himpunan.
+- Tambah dengan kardinalitas setiap kombinasi irisan tiga himpunan.
+- *dan seterusnya*
+- $(-1)^k$ dengan kardinalitas setiap kombinasi irisan $n$ himpunan.
