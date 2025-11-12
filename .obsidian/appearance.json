@@ -11,11 +11,10 @@
     "inter-complete",
     "no-wrap-code-block",
     "no-strike-task",
-    "left-aligned-math",
     "jetbrainsmono-nerd-font"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",
   "interfaceFontFamily": "Inter Complete",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code,Source Code Pro,BPG Courier GPL&GNU"
 }
