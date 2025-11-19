@@ -1,5 +1,5 @@
 ---
-date: 2025-10-09
+date: 2025-11-09
 ---
 
 # Soal 1–3: Permen Pak Dengklek
@@ -12,7 +12,7 @@ Pak Dengklek membawa sejumlah permen ke kelasnya. Ia ingin membagikan permen kep
 
 **Soal 3.** Diberikan daftar permintaan permen dari beberapa siswa, kita boleh mengatur ulang urutan mereka supaya sebanyak mungkin siswa bisa menerima permen, asalkan total permen yang dimiliki Pak Dengklek tidak berubah. Sekarang Pak denglek memiliki sejumlah 2025 permen, uniknya lagi dari 1000 siswa yang berbaris, permintaan mereka adalah 1000 bilangan pertama dengan **semua penyusun angkanya tidak ada angka yang sama**. Tentukan berapa banyak siswa yang mendapatkan permen!
 
-<div style="page-break-after: always;"></div>
+---
 
 # Soal 4–6: Festival Lampion
 
@@ -44,11 +44,13 @@ Apakah algoritma akan menolak barisan ini? Jika iya, di indeks ke berapa ditemuk
 - [ ] Tidak bisa lebih dari 8 kombinasi.
 - [ ] Harus menghentikan proses di lampu ke-6.
 
-<div style="page-break-after: always;"></div>
+---
 
 # **Soal 7–9: ZLR**
 
-```cpp
+Perhatikan kode berikut.
+
+```
 int Z(int l, int r) {
     if (l < r) {
         int mid = (l + r) / 2;
@@ -65,9 +67,9 @@ int Z(int l, int r) {
 
 **Soal 8.** Tentukan nilai dari $a$ terkecil sehingga `Z(a, 2*a)` lebih besar dari $2^{10}$.
 
-**Soal 9.** Pemanggilan program tersebut sama dengan pemanggilan program dibawah ini. **Tuliskan jawaban dengan BENAR atau SALAH**
+**Soal 9.** <u>**BENAR** atau **SALAH**</u>: Pemanggilan program tersebut sama dengan pemanggilan program dibawah ini.
 
-```cpp
+```
 int Z(int l, int r) {
     if (l >= r) return 1;
     int mid = (l + r) / 2;
@@ -75,11 +77,13 @@ int Z(int l, int r) {
 }
 ```
 
-<div style="page-break-after: always;"></div>
+---
 
 # **Soal 10–11: >> <<**
 
-```cpp
+Perhatikan kode berikut.
+
+```
 int main() {
     int a, b, hasil = 0, temp = 1;
     cin >> a >> b;

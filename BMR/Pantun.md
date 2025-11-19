@@ -56,7 +56,7 @@ Masjid yang damai di tengah kampung.
 
 AB ↔ C: 8 bait
 
-**A:**  
+**B:**  
 Di jalan lurus pepohonan rindang,  
 Angin berdesir di pagi hari.  
 Tampak seseorang duduk tenang,  
@@ -110,7 +110,7 @@ Hati bersih, niat pun jernih.
 
 ABC ↔ D: 8 bait
 
-**A:**  
+**C:**  
 Buah pepaya jatuh di alas,  
 Daunnya hijau nampaknya megah.  
 Kawan, mari, janganlah malas,  
@@ -164,7 +164,7 @@ Beriring langkah penuh keikhlasan.
 
 ABCD ↔ E: 7 bait
 
-**A:**  
+**D:**  
 Empat berjalan di jalan desa,  
 Suara azan makin mendekat.  
 Tampak seorang duduk di teras,  
@@ -176,7 +176,7 @@ Burung pulang ke sarangnya.
 Maaf kawan, aku tak bisa,  
 Terlalu letih aku rasanya.
 
-**B:**  
+**D:**  
 Mentari turun di ufuk barat,  
 Awan jingga warnai petang.  
 Sayang sekali engkau menolak,  
@@ -200,7 +200,7 @@ Menatap punggung yang makin jauh.
 Entah mengapa hati terasa hampa,  
 Namun langkahku tak ikut tersentuh.
 
-**C:**  
+**D:**  
 Angin malam berhembus sabar,  
 Daun kelapa berayun lambat.  
 Semoga yang tertinggal kelak sadar,  

@@ -5,13 +5,15 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "math",
     "variable-ordered-list",
     "print",
+    "math",
+    "hr-page-break",
     "inter-complete",
-    "no-wrap-code-block",
+    "jetbrainsmono-nerd-font",
     "no-strike-task",
-    "jetbrainsmono-nerd-font"
+    "no-wrap-code-block",
+    "transparent-inline-code"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",

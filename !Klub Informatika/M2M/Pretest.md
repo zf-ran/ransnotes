@@ -67,7 +67,7 @@ Terdapat $Q$ skenario (dinomori dari $1$ hingga $Q$). Dalam skenario ke-$j$, And
 
 # Soal 10–12: Panggil
 
-```cpp
+```
 int panggil(int n) {
     if (n == 2 || n == 1 || n == 0)
 	    return n;
@@ -86,7 +86,7 @@ int panggil(int n) {
 
 # **Soal 13–15: bebek-kebeb**
 
-```cpp
+```
 int N = 9;
 int A[9] = {1, -2, 3, 4, 5, 4, 3, -2, 1};
 

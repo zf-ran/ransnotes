@@ -1,0 +1,10 @@
+code {
+	font-variant-ligatures: none;
+	font-size: 1em !important;
+}
+
+:not(pre) > code,
+.cm-inline-code {
+  background-color: transparent !important;
+	padding: 0 !important;
+}
