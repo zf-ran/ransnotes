@@ -1,0 +1,8 @@
+.callout {
+	background-color: transparent;
+	border-left: 4px solid rgb(var(--callout-color)) !important;
+	border-radius: 0;
+
+	padding: 0;
+	padding-left: 18px;
+}

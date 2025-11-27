@@ -62,11 +62,11 @@ int Wow(int n) {
 }
 ```
 
-7.      Tentukan nilai dari `Wow(31)`.
+**Soal 7.** Tentukan nilai dari `Wow(31)`.
 
-8.      Tentukan nilai dari `Wow(1000)`
+**Soal 8.** Tentukan nilai dari `Wow(1000)`
 
-9.      Jika nilai dari `Wow(n)` adalah 12, tentukan nilai dari $n$ terkecil.
+**Soal 9.** Jika nilai dari `Wow(n)` adalah 12, tentukan nilai dari $n$ terkecil.
 
 ---
 
