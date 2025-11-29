@@ -31,7 +31,7 @@ $$ \begin{align*}
 \end{align*} $$
 
 > [!done] Jawaban
-> **C.** -56.
+> **C.** −56.
 
 ---
 

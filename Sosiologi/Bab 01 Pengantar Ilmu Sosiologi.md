@@ -27,7 +27,7 @@ Di Indonesia, **Ki Hajar Dewantara**, bapak pendidikan Indonesia, memperkenalkan
 
 # Sosiologi sebagai Ilmu Sosial
 
-Berasal dari bahasa Latin "*socius*" (kawan) dan "*logos*" (ilmu), secara literal "ilmu tentang kawan." Secara istilah adalah ilmu tentang sifat, perilaku, dan perkembangan ***masyarakat***. Sosiologi membahas interaksi individu dengan individu, individu dengan kelompok, maupun kelompok dengan kelompok.
+Berasal dari bahasa Latin “*socius*” (kawan) dan “*logos*” (ilmu), secara literal “ilmu tentang kawan.” Secara istilah adalah ilmu tentang sifat, perilaku, dan perkembangan ***masyarakat***. Sosiologi membahas interaksi individu dengan individu, individu dengan kelompok, maupun kelompok dengan kelompok.
 
 Objek yang dikaji pada Sosiologi adalah **masyarakat**.
 
@@ -80,5 +80,4 @@ Teori **eksistensialisme** fokus pada kebebasan, tanggung jawab, dan pilihan ind
 Teori **pertukaran** menyatakan bahwa interaksi sosial dipahami sebagai proses pertukaran imbalan dan biaya. Individu bertindak untuk memaksimalkan keuntungan dan meminimalkan kerugian (George C. Homans, Peter Blau).
 
 > [!question] Apa beda teori fungsionalisme struktural dan teori sistem?
-
-Pada teori sistem, jika ada suatu sistem yang rusak, sistem yang lain akan terganggu, bahkan mungkin tidak dapat berjalan. Sedangkan pada teori fungsionalisme strukturan, jika ada suatu sistem yang rusak, masih bisa digantikan dengan sistem lain.
+> Pada teori sistem, jika ada suatu sistem yang rusak, sistem yang lain akan terganggu, bahkan mungkin tidak dapat berjalan. Sedangkan pada teori fungsionalisme strukturan, jika ada suatu sistem yang rusak, masih bisa digantikan dengan sistem lain.

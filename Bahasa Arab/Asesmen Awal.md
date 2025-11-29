@@ -1,10 +1,10 @@
-<center>Soal Objektif Bahasa Arab Kelas X</center>
+> [!example] Asesmen Awal
+> - **Nama:** Zafran Prayata Wiza
+> - **Kelas:** X.8
 
-- **Nama:** Zafran Prayata Wiza
-- **Kelas:** X.8
-
-- Tema: Memperkenalkan Diri dan Memperkenalkan Orang Lain
-- Petunjuk: Pilihlah jawaban yang paling tepat!
+> [!important] Petunjuk
+> - Tema: Memperkenalkan Diri dan Memperkenalkan Orang Lain
+> - Petunjuk: Pilihlah jawaban yang paling tepat!
 
 1. Kalimat yang tepat untuk mengatakan "Namaku Ahmad" adalah ….  
 	a. اسمي أحمد
