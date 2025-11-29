@@ -89,3 +89,11 @@
 		- asal-usul dari Taiwan.
 		- Bermigrasi ~5.000 tahun lalu.
 - **(16–30)** *Ciri-ciri perkembangan kehidupan praaksara; ciri-ciri hasil budaya masyarakat praaksara Indonesia.*
+	- Ciri manusia.
+		- *Meganthropus* atau *H. erectus*.
+			- Hidup 2.000.000–1.000.000 tahun lalu.
+			- Badan tegap.
+			- Rahang kuat.
+			- Tidak ada dagu.
+			- Masih mengumpulkan makanan.
+			- Pemakan tumbuhan dan umbi.
