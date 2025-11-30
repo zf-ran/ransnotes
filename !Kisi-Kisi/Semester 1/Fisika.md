@@ -1,6 +1,20 @@
+> [!important] Catatan Penting
+> Saya akan menulis: $\newcommand{\m}[1]{\mathsfup{#1}}\newcommand{\v}[1]{\mathbf{#1}}$
+> 
+> - **variabel** dengan serif miring, seperti $v$, $F$, $A$.
+> - **satuan** dengan serif tegak, seperti $\pu{m}$, $\pu{kg}$, $\pu{N}$.
+> - **dimensi** dengan sans-serif tegak, seperti $\m L$, $\m M$, $\m \Theta$.
+> - **dimensi dari suatu besaran** $B$ dengan $[B]$. Sebagai contoh, misalkan $F$ adalah gaya, maka $[F] = \pu{\m L \m M \m T-2}$.
+> - **satuan SI dari suatu besaran** $B$ dengan $\{B\}$. Sebagai contoh, misalkan $v$ adalah kecepatan, maka $\{v\} = \pu{m/s}$.
+> - **vektor** dengan serif tebal tegak, seperti $\v v$, $\v r$.
+> - **pemisah ribuan** dengan spasi, seperti $\pu{20034582}$.
+> - **pemisah desimal** dengan titik, seperti $\pu{4.5}$.
+
 # 1—Besaran, Satuan, dan Pengukuran {#bab-1}
 
-Besaran-besaran pokok meliputi $\newcommand{\m}[1]{\mathsfup{#1}}$
+## 1.1—Besaran, Satuan, dan Dimensi
+
+Besaran-besaran pokok meliputi **7 besaran** berikut. 
 
 | Nama              | Dimensi     | Satuan SI | Simbol Satuan SI |
 | ----------------- | ----------- | --------- | ---------------- |
@@ -16,9 +30,164 @@ Besaran turunan meliputi segala kombinasi perkalian (atau pembagian) dari besara
 
 Misalnya kecepatan, bersatuan $\pu{m/s}$ atau dapat ditulis seperti $\pu{m s-1}$, yaitu kombinasi antara $\m L$ dan $\m T$; yaitu $\pu{\m L \m T-1}$.
 
-Besaran selain 7 besaran pokok di atas merupakan **besaran turunan.**
+Besaran **selain** 7 besaran pokok di atas merupakan **besaran turunan**.
+
+Berikut beberapa besaran **turunan** umum.
+
+| Nama        | Dimensi                  | Satuan SI        | Keterangan       |
+| ----------- | ------------------------ | ---------------- | ---------------- |
+| Luas        | $\pu{\m L2}$             | $\pu{m2}$        |                  |
+| Volume      | $\pu{\m L3}$             | $\pu{m3}$        |                  |
+| Massa jenis | $\pu{\m L-3 \m M}$       | $\pu{kg/m3}$     |                  |
+| Kecepatan   | $\pu{\m L \m T-1}$       | $\pu{m/s}$       |                  |
+| Percepatan  | $\pu{\m L \m T-2}$       | $\pu{m/s2}$      |                  |
+| Gaya        | $\pu{\m L \m M \m T-2}$  | $\pu N$ (newton) | $\pu{kg . m/s2}$ |
+| Usaha       | $\pu{\m L2 \m M \m T-2}$ | $\pu{J}$ (joule) | $\pu{kg.m2/s2}$  |
+| Daya        | $\pu{\m L2 \m M \m T-3}$ | $\pu{W}$ (watt)  | $\pu{kg.m2/s3}$  |
+| Momentum    | $\pu{\m L \m M \m T-1}$  | $\pu{kg.m/s}$    |                  |
+
+Satuan-satuan tersebut dapat ditambahkan awalan (prefiks) untuk mengubah “ukuran”-nya, dengan kelipatan $10$.
+
+Ada **6 prefiks** utama: kilo, hekto, deka, desi, senti, dan mili.
+
+| Nama  | Simbol    | Faktor    |
+| ----- | --------- | --------- |
+| kilo  | $\pu{k}$  | $10^3$    |
+| hekto | $\pu{ha}$ | $10^2$    |
+| deka  | $\pu{da}$ | $10$      |
+| —     | —         | $1$       |
+| desi  | $\pu{d}$  | $10^{-1}$ |
+| senti | $\pu{c}$  | $10^{-2}$ |
+| mili  | $\pu{m}$  | $10^{-3}$ |
+
+Ada lagi prefiks untuk yang lebih besar dan kecil, namun jarang digunakan (kecuali tera, giga, mega, dan mikro). Berikutlah jika penasaran. Tidak terlalu penting untuk dihafal.
+
+| Nama  | Simbol   | Faktor     |
+| ----- | -------- | ---------- |
+| yotta | $\pu{Y}$ | $10^{24}$  |
+| zetta | $\pu{Z}$ | $10^{21}$  |
+| eksa  | $\pu{E}$ | $10^{18}$  |
+| peta  | $\pu{P}$ | $10^{15}$  |
+| tera  | $\pu{T}$ | $10^{12}$  |
+| giga  | $\pu{G}$ | $10^9$     |
+| mega  | $\pu{M}$ | $10^6$     |
+| —     | —        | —          |
+| mikro | $\pu{µ}$ | $10^{-6}$  |
+| nano  | $\pu{n}$ | $10^{-9}$  |
+| piko  | $\pu{p}$ | $10^{-12}$ |
+| femto | $\pu{f}$ | $10^{-15}$ |
+| atto  | $\pu{a}$ | $10^{-18}$ |
+| zepto | $\pu{z}$ | $10^{-21}$ |
+| yocto | $\pu{y}$ | $10^{-24}$ |
+
+Untuk menggunakan prefiks tersebut, letakkan prefiks sebelum satuan yang ingin dipakai. Sebagai contoh, kilo dan watt, maka menjadi kilowatt. Dan untuk simbolnya, gabungkan tanpa spasi, sebagai contoh $\pu{kW}$.
+
+Ambil contoh tadi, kilowatt: $\pu{kW}$. Karena satu “kilo-” itu $10^3$, maka satu kilowatt itu $\pu{10^3 W}$ atau $\pu{1000 W}$.
+
+Contoh lain, sentimeter: $\pu{cm}$. Karena satu “senti-” itu $10^{-2}$, maka satu sentimeter itu $\pu{10^{-2} m}$ atau $\pu{\frac{1}{100} m}$.
+
+Jadi semua istilah gigabyte, megabyte, terabyte itu datangnya dari prefiks SI.
+
+## 1.2—Pengukuran
+
+Pada suatu pengukuran, akan **pasti** terjadi ketidakpastian. Tidak ada pengukuran yang akurat. Seakurat apapun pengukurnya, pasti akan ada ketidakpastian, dalam skala $10^{-100}$ sekalipun.
+
+Maka dari itu, kesalahan pengukuran tersebut ada penulisan tertentu.
+
+Secara umum, kesalahan pengukuran ditulis sebagai
+
+$$ x \pm \Delta x $$
+
+di mana
+
+- $x$ adalah hasil pengukuran yang didapat; dan
+- $\Delta x$ adalah ketidakpastian.
+
+### 1.2.1—Pengukuran Tunggal
+
+Pada pengukuran tunggal, ketidakpastian adalah setengah dari skala terkecil:
+
+$$ \Delta x = \frac 1 2 \times (\text{nst}) $$
+
+di mana $\text{nst}$ adalah nilai skala terkecil.
+
+#### 1.2.1.1—Penggaris
+
+Lihat penggaris kalian, umumnya skala terkecilnya adalah $\pu{1 mm}$.
+
+Anggaplah kita sedang mengukur lebar ponsel. Kita mendapati lebar ponsel di angka $\pu{7.9 cm}$ atau $\pu{79 mm}$. Nah, dengan prinsip tadi, hasil pengukuran adalah
+
+$$\pu{(79 \pm 0.5) mm} $$
+
+di mana $\pu{0.5}$ di dapat dari setengah skala terkecil penggaris.
+
+#### 1.2.1.2—Jangka Sorong
+
+[otw]
+
+### 1.2.2—Pengukuran Berulang
+
+Untuk lebih akurat lagi, kita dapat mengukur berkali-kali, dan merata-ratakan setiap hasil pengukuran.
+
+Misalkan kita sudah melakukan $n$ pengukuran, dan hasil pengukuran ke-$i$ adalah $x_i$.
+
+Misalkan $\bar x$ adalah rata-rata pengukuran:
+
+$$ \bar x = \frac{x_1 + x_2 + \cdots + x_n}{n}. $$
+
+Misalkan $s$ adalah **simpangan baku**, yaitu rata-rata seberapa jauh pengukuran dari pengukuran rata-rata:
+
+$$ s = \sqrt{\frac 1 {n-1} \sum_{i=1}^n (x_i - \bar x)^2} $$
+
+atau lebih mudah
+
+$$ s = \sqrt{\frac{n\sum_i x_i^2 - (\sum_i x_i)^2}{n(n-1)}}. $$
+
+Maka hasil pengukuran akan ditulis sebagai
+
+$$ \boxed{\bar x \pm s}. $$
+
+Misalkan kita mengukur lebar buku 10 kali menggunakan jangka sorong. Dan berikut hasilnya.
+
+| Lebar $(\pu{cm})$ |
+| ----------------: |
+|             15.23 |
+|             15.27 |
+|             15.20 |
+|             15.30 |
+|             15.18 |
+|             15.25 |
+|             15.22 |
+|             15.26 |
+|             15.19 |
+|             15.24 |
+
+Didapat
+
+- jumlah adalah $\pu{152.34 cm}$;
+- rata-ratanya adalah $\pu{15.234 cm}$; dan
+- jumlah kuadrat adalah $\pu{2320.7604 cm}$.
+
+Masukkan ke rumus simpangan baku.
+
+$$ \begin{align*}
+	s &= \sqrt{\frac{n\sum_i x_i^2 - (\sum_i x_i)^2}{n(n-1)}} \\
+	&= \sqrt{\frac{10 (\pu{2320.7604 cm2}) - (\pu{152.340 cm})^2}{10 \cdot 9}} \\
+	s &= \pu{0.03777124 cm}.
+\end{align*} $$
+
+Sekarang, kita perlu membulatkan $s$, karena $s$ hanyalah perkiraan, agak menipu kesannya jika kita memberi **7 angka penting**.
+
+Biasanya, simpangan baku dibulatkan menjadi 1 hingga 2 angka penting. Maka pada kasus ini, $s = \pu{0.038 cm}$.
+
+Dan jumlah desimal $\bar x$ juga mengikuti $s$. Pada kasus ini, $\bar x$ sudah memiliki 3 angka desimal.
+
+Maka hasil pengukuran adalah
+
+$$ \boxed{\pu{(15.234 \pm 0.038) cm}}. $$
 
 - **(1)** *Besaran turunan yang ada dalam wacana.*
+	- Seperti di atas, selain 7 besaran pokok maka besaran turunan.
 - **(2)** *Besaran dengan dimensi sama yang ada dalam wacana.*
 - **(3)** *Satuan salah satu dari besaran turunan yang ada dalam wacana.*
 - **(4)** *Dimensi dari besaran turunan yang ada dalam wacana.*

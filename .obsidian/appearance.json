@@ -13,7 +13,8 @@
     "jetbrainsmono-nerd-font",
     "no-strike-task",
     "no-wrap-code-block",
-    "transparent-inline-code"
+    "transparent-inline-code",
+    "transparent-callout"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",

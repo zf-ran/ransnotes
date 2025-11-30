@@ -1,9 +1,8 @@
-> [!example] Tugas PJOK Bab 1: *Permainan Invasi*
+> [!example] Tugas PJOK Bab 1: Permainan Invasi
 > - **Nama:** Zafran Prayata Wiza
 > - **Kelas:** X.8
-> - **Tanggal:** 7 Agustus 2025
 
-# Bola Basket (Hal. 24–25)
+# Bola Basket
 
 ## A. Pilihan Ganda
 
@@ -119,7 +118,7 @@
 
 ---
 
-# Sepak Bola (Hal. 46–47)
+# Sepak Bola
 
 ## A. Pilihan Ganda
 
