@@ -10,15 +10,15 @@ Berikut pembahasan-pembahasannya. Jika pembahasan belum lengkap, **mohon tunggu*
 	- [x] ~~**04**—[Fikih](/note/51df584c-3088-417f-ae21-2a1a386b8942)~~
 - *Jumat, 28 November 2025*
 	- [x] ~~**05**—[Biologi](/note/35ba5556-4017-46c0-a1c4-0d326f851b6a)~~
-	- [ ] ~~**06**—[Sejarah](/note/0a92c5a5-279e-488d-9d69-99e2690372a6)~~
+	- [x] ~~**06**—[Sejarah](/note/0a92c5a5-279e-488d-9d69-99e2690372a6)~~
 - *Senin, 1 Desember 2025*
 	- [ ] ~~**07**—[Fisika](/note/39101d49-14da-4254-973c-f995a05e9860)~~
 	- [ ] ~~**08**—Bahasa Inggris~~
 - *Selasa, 2 Desember 2025*
-	- [ ] **09**—Kimia
-	- [ ] **10**—Bahasa Arab
+	- [x] ~~**09**—[Kimia](/note/9549f369-d257-43b1-a5fb-5dc499efb89c)~~
+	- [ ] ~~**10**—Bahasa Arab~~
 - *Rabu, 3 Desember 2025*
-	- [ ] **11**—Sosiologi
+	- [x] **11**—[Sosiologi](/note/f9ed0452-ff31-4e3f-a3c3-43670cdce6d7)
 	- [ ] **12**—[Sejarah Kebudayaan Islam](/note/b833265b-89c1-4f3b-ab78-f27a901fe86c)
 - *Kamis, 4 Desember 2025*
 	- [ ] **13**—Ekonomi
@@ -27,12 +27,23 @@ Berikut pembahasan-pembahasannya. Jika pembahasan belum lengkap, **mohon tunggu*
 	- [ ] **15**—Pendidikan Pancasila
 	- [ ] **16**—Geografi
 
-Dapat disimpulkan dari Jadwal Sumatif Akhir Semester Ganjil MAN 2 Kota Pekanbaru Tahun Pelajaran 2025/2026 sebagai berikut.
+~~Dapat disimpulkan dari Jadwal Sumatif Akhir Semester Ganjil MAN 2 Kota Pekanbaru Tahun Pelajaran 2025/2026 sebagai berikut.~~
 
-Dari hari **Rabu, 26 November 2025** s.d. **Kamis, 4 Desember 2025**, ujian mulai **pukul 7.30** dan selesai **pukul 11.30**.
+~~Dari hari **Rabu, 26 November 2025** s.d. **Kamis, 4 Desember 2025**, ujian mulai **pukul 7.30** dan selesai **pukul 11.30**.~~
 
-Tapi entah kenapa durasi ujian pertama (pada masing-masing hari) adalah **2 jam**, tapi ujian kedua **1 jam 30 menit**.
+~~Tapi entah kenapa durasi ujian pertama (pada masing-masing hari) adalah **2 jam**, tapi ujian kedua **1 jam 30 menit**.~~
 
-Sedangkan untuk **Jumat, 5 Desember 2025**, ujian mulai **pukul 7.30** dan selesai **pukul 11.00**. Pada hari ini, kedua-dua ujian memiliki durasi **1 jam 30 menit**.
+~~Sedangkan untuk **Jumat, 5 Desember 2025**, ujian mulai **pukul 7.30** dan selesai **pukul 11.00**. Pada hari ini, kedua-dua ujian memiliki durasi **1 jam 30 menit**.~~
 
-Antara setiap ujian memiliki jeda **30 menit**.
+~~Antara setiap ujian memiliki jeda **30 menit**.~~
+
+Dari Revisi Jadwal Sumatif Akhir Semester Ganjil MAN 2 Kota Pekanbaru Tahun Pelajaran 2025/2026,
+
+Ada perubahan jadwal untuk kelas X.
+
+Sejak **Rabu, 3 Desember 2025** s.d. **Jumat, 5 Desember 2025**, ujian mulai setelah zuhur.
+
+- Untuk Rabu, 2 Desember dan Kamis, 3 Desember, ujian mulai **pukul 13.00** dan selesai **pukul 15.30**. Terdapat jeda **30 menit** di antaranya.
+- Untuk Jumat, 3 Desember, ujian mulai **pukul 13.30** dan selesai **pukul 15.45**. Terdapat jeda **15 menit** di antaranya.
+
+Setiap ujian memiliki durasi **1 jam**.
