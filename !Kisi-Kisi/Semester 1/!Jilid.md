@@ -9,11 +9,11 @@ Berikut pembahasan-pembahasannya. Jika pembahasan belum lengkap, **mohon tunggu*
 	- [x] ~~**03**—[Matematika](/note/8c62f273-65b7-423e-8d40-c7e04314dddb)~~
 	- [x] ~~**04**—[Fikih](/note/51df584c-3088-417f-ae21-2a1a386b8942)~~
 - *Jumat, 28 November 2025*
-	- [x] **05**—[Biologi](/note/35ba5556-4017-46c0-a1c4-0d326f851b6a)
-	- [ ] **06**—[Sejarah](/note/0a92c5a5-279e-488d-9d69-99e2690372a6)
+	- [x] ~~**05**—[Biologi](/note/35ba5556-4017-46c0-a1c4-0d326f851b6a)~~
+	- [ ] ~~**06**—[Sejarah](/note/0a92c5a5-279e-488d-9d69-99e2690372a6)~~
 - *Senin, 1 Desember 2025*
-	- [ ] **07**—[Fisika](/note/39101d49-14da-4254-973c-f995a05e9860)
-	- [ ] **08**—Bahasa Inggris
+	- [ ] ~~**07**—[Fisika](/note/39101d49-14da-4254-973c-f995a05e9860)~~
+	- [ ] ~~**08**—Bahasa Inggris~~
 - *Selasa, 2 Desember 2025*
 	- [ ] **09**—Kimia
 	- [ ] **10**—Bahasa Arab
