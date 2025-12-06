@@ -442,14 +442,14 @@
       }
     }
   },
-  "selectedTheme": "Default",
+  "selectedTheme": "Formal",
   "currentTheme": {
     "settings": {
       "codeblock": {
-        "lineNumbers": true,
+        "lineNumbers": false,
         "unwrapLines": true,
         "wrapLinesActive": false,
-        "curvature": 4
+        "curvature": 0
       },
       "gutter": {
         "highlight": true,
@@ -462,7 +462,7 @@
           "textItalic": false
         },
         "languageTag": {
-          "display": "if_header_shown",
+          "display": "none",
           "textFont": "",
           "textBold": true,
           "textItalic": false
@@ -476,7 +476,7 @@
           "displayVersion": true,
           "displayTimestamp": true
         },
-        "fontSize": 14,
+        "fontSize": 12,
         "foldPlaceholder": ""
       },
       "highlights": {
@@ -485,7 +485,7 @@
       },
       "inline": {
         "syntaxHighlight": true,
-        "style": true,
+        "style": false,
         "fontWeight": 4,
         "curvature": 6,
         "paddingVertical": 5,
@@ -496,24 +496,24 @@
       "advanced": {
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
-        "languageBorderColour": true,
-        "languageBorderWidth": 2,
+        "languageBorderColour": false,
+        "languageBorderWidth": 4,
         "iconSize": 28
       }
     },
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "textColour": "--code-normal"
         },
         "gutter": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "textColour": "--text-faint",
           "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "title": {
             "textColour": "--code-comment"
           },
@@ -547,16 +547,16 @@
       },
       "dark": {
         "codeblock": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "textColour": "--code-normal"
         },
         "gutter": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "textColour": "--text-faint",
           "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#24242400",
           "title": {
             "textColour": "--code-comment"
           },

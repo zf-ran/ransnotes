@@ -14,7 +14,8 @@
     "no-strike-task",
     "no-wrap-code-block",
     "transparent-inline-code",
-    "transparent-callout"
+    "transparent-callout",
+    "formal-code"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",
