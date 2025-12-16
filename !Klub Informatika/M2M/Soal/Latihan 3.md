@@ -2,7 +2,7 @@
 date: 2025-11-21
 ---
 
-# Soal 1–3: Laboratorium Geometri
+# Soal 1–3. Laboratorium Geometri
 
 Kamu sedang berada dalam sebuah laboratorium geometri yang mempelajari bangun beraturan. Di depanmu terdapat sebuah poligon beraturan yang memiliki $N$ sisi. Pada setiap sisi, para peneliti telah meletakkan beberapa titik khusus. Titik-titik ini berada di sepanjang sisi dan membagi sisi tersebut menjadi bagian-bagian yang sama panjang. Untuk setiap sisi ke-$i$, ada sebanyak $A_i$ titik khusus; dan sisi-sisi diurutkan secara searah jarum jam.
 
@@ -20,7 +20,7 @@ Sebagai contoh jika $A = [3, 1, 4, 6]$ maka kita dapat membuat sebanyak 4 buah s
 
 ---
 
-# Soal 4–6: Kecantikan Kandang Bebek
+# Soal 4–6. Kecantikan Kandang Bebek
 
 Di sebuah peternakan besar, Pak Ganesh memelihara $n$ ekor bebek yang dinomori mulai dari $1$ hingga $n$, dan setiap bebek memiliki:
 

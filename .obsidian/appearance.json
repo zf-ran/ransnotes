@@ -8,14 +8,14 @@
     "variable-ordered-list",
     "print",
     "math",
-    "hr-page-break",
-    "inter-complete",
     "jetbrainsmono-nerd-font",
     "no-strike-task",
     "no-wrap-code-block",
     "transparent-inline-code",
     "transparent-callout",
-    "formal-code"
+    "inter-complete",
+    "formal-code",
+    "hr-page-break"
   ],
   "theme": "system",
   "textFontFamily": "Inter Complete",

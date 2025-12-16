@@ -2,7 +2,7 @@
 date: 2025-11-18
 ---
 
-# Soal 1–3: Mbah Dukun Penyantet Angka
+# Soal 1–3. Mbah Dukun Penyantet Angka
 
 Ada mbah dukun yang saat ini memiliki sebuah barisan angka yang terletak pada brankas rahasia $A$. Ada $N$ buah bilangan dengan indeks terurut mulai dari $i = 1$ hingga $i = N$ pada brankas tersebut, atau
 
@@ -22,7 +22,7 @@ Mbah dukun ingin memaksimalkan banyaknya *subarray*[^subarray] yang mengandung *
 
 ---
 
-# Soal 4–6: Sihir Penghalang **Seorang** **Mbah Dukun** Jahat
+# Soal 4–6. Sihir Penghalang **Seorang** **Mbah Dukun** Jahat
 
 Di sebuah dunia magis, terdapat $N$ gua misterius yang diberi nomor dari $1$ hingga $N$. Awalnya, setiap pasang gua terhubung dengan **jalur sihir**, sehingga ada total $\frac{N(N-1)}{2}$ jalur sihir yang tersedia.
 
@@ -40,7 +40,7 @@ Untungnya, **petualang sakti** tinggal diantara gua tersebut dan ingin tetap bis
 
 ---
 
-# Soal 7–9: Wow
+# Soal 7–9. Wow
 
 Perhatikan kode berikut.
 
@@ -70,7 +70,7 @@ int Wow(int n) {
 
 ---
 
-# Soal 10–11: Bunga
+# Soal 10–11. Bunga
 
 Perhatikan kode berikut.
 

@@ -2,7 +2,7 @@
 date: 2025-11-09
 ---
 
-# Soal 1–3: Permen Pak Dengklek
+# Soal 1–3. Permen Pak Dengklek
 
 Pak Dengklek membawa sejumlah permen ke kelasnya. Ia ingin membagikan permen kepada $N$ siswa yang sedang berbaris. Setiap siswa punya permintaan jumlah permen yang berbeda-beda. Pak Dengklek ingin membagikan permen kepada siswa dari depan ke belakang. Jika permennya tidak cukup untuk memenuhi permintaan siswa berikutnya, maka ia akan melewatkan siswa tersebut dan lanjut ke siswa berikutnya. Proses berhenti jika semua siswa sudah diperiksa atau permen Pak Denglek sudah habis. Tentukan berapa banyak siswa yang berhasil menerima permen sesuai permintaannya.
 
@@ -14,7 +14,7 @@ Pak Dengklek membawa sejumlah permen ke kelasnya. Ia ingin membagikan permen kep
 
 ---
 
-# Soal 4–6: Festival Lampion
+# Soal 4–6. Festival Lampion
 
 Setiap tahun, Kota Binary mengadakan Festival Lampion. Warga kota menghias rumah dengan **lampu berwarna merah** (R) atau **biru** (B). Di setiap jalan, lampu-lampu dinyalakan dalam barisan dari kiri ke kanan.
 
@@ -46,7 +46,7 @@ Apakah algoritma akan menolak barisan ini? Jika iya, di indeks ke berapa ditemuk
 
 ---
 
-# **Soal 7–9: ZLR**
+# Soal 7–9. ZLR
 
 Perhatikan kode berikut.
 
@@ -79,7 +79,7 @@ int Z(int l, int r) {
 
 ---
 
-# **Soal 10–11: >> <<**
+# Soal 10–11. >> <<
 
 Perhatikan kode berikut.
 
