@@ -1,3 +1,7 @@
+---
+date: 2025-12-18
+---
+
 # Soal 1–3. Wowogi dan Makan Siang Bergizi Gratis yang Rumit
 
 Wowogi sedang mengadakan program makan siang bergizi gratis untuk anak-anak di sekolah. Ada $N$ siswa yang datang satu per satu ke kantin untuk mengambil makanan. Kita menomori siswa-siswa ini dari $1$ sampai $N$ berdasarkan urutan kedatangan mereka.
@@ -62,7 +66,7 @@ $$ \begin{gather*}
 
 **Soal 5.** Dengan berlatih, kemampuan meloncat Takak bisa bertambah, sekarang ia memiliki kemampuan meloncat sejauh $d = 5$. Jika diberikan rute seperti soal sebelumnya, maka berapa kemungkinan rute unik yang dapat diambil Takak untuk mencapai tujuan?
 
-**Saol 6.** Dengan bertambahnya usia kemampuan Takak yang sebelumnya bisa meloncat sejauh 5, sekarang kemampuannya menjadi hanya sebesar 2 kembali. Tentukan berapa kemungkinan rute unik yang dapat diambil Takak untuk mencapai tujuan.
+**Soal 6.** Dengan bertambahnya usia kemampuan Takak yang sebelumnya bisa meloncat sejauh 5, sekarang kemampuannya menjadi hanya sebesar 2 kembali. Tentukan berapa kemungkinan rute unik yang dapat diambil Takak untuk mencapai tujuan.
 
 ---
 

@@ -16,17 +16,17 @@ Pak Dengklek membawa sejumlah permen ke kelasnya. Ia ingin membagikan permen kep
 
 # Soal 4–6. Festival Lampion
 
-Setiap tahun, Kota Binary mengadakan Festival Lampion. Warga kota menghias rumah dengan **lampu berwarna merah** (R) atau **biru** (B). Di setiap jalan, lampu-lampu dinyalakan dalam barisan dari kiri ke kanan.
+Setiap tahun, Kota Binary mengadakan Festival Lampion. Warga kota menghias rumah dengan **lampu berwarna merah** ($\mathtt{R}$) atau **biru** ($\mathtt{B}$). Di setiap jalan, lampu-lampu dinyalakan dalam barisan dari kiri ke kanan.
 
 Panitia festival memberikan beberapa aturan agar lampion terlihat indah:
 
-Tidak boleh ada dua warna yang sama berdampingan lebih dari dua kali. Contah yang tidak valid adalah RRR dan BBB. Contoh yang valid adalah RR, BB, dan BR. Setiap susunan lampu harus memiliki jumlah lampu genap. Warga boleh memilih sendiri urutan warnanya selama aturan dipatuhi.
+Tidak boleh ada dua warna yang sama berdampingan lebih dari dua kali. Contoh yang tidak valid adalah $\mathtt{RRR}$ dan $\mathtt{BBB}$. Contoh yang valid adalah $\mathtt{RR}$, $\mathtt{BB}$, dan $\mathtt{BR}$. Setiap susunan lampu harus memiliki jumlah lampu genap. Warga boleh memilih sendiri urutan warnanya selama aturan dipatuhi.
 
-**Soal 4.** Panitia sedang membuat sistem pengecekan otomatis. Mereka menyusun algoritma berikut: “Mulai dari indeks ke-$1$, periksa setiap tiga lampu berturut-turut sebelumnya. Jika ditemukan pola yang semuanya sama (RRR atau BBB), tolak barisan lampu.”
+**Soal 4.** Panitia sedang membuat sistem pengecekan otomatis. Mereka menyusun algoritma berikut: “Mulai dari indeks ke-$1$, periksa setiap tiga lampu berturut-turut sebelumnya. Jika ditemukan pola yang semuanya sama ($\mathtt{RRR}$ atau $\mathtt{BBB}$), tolak barisan lampu.”
 
 Diberikan barisan 10 lampu,
 
-$$ \texttt{B B R R R B R B B R} $$
+$$ \mathtt{B B R R R B R B B R} $$
 
 Apakah algoritma akan menolak barisan ini? Jika iya, di indeks ke berapa ditemukan pelanggaran pertama?
 
@@ -65,7 +65,7 @@ int Z(int l, int r) {
   
 **Soal 7.** Tentukan hasil dari pemanggilan `Z(2, 8)`.
 
-**Soal 8.** Tentukan nilai dari $a$ terkecil sehingga `Z(a, 2*a)` lebih besar dari $2^{10}$.
+**Soal 8.** Tentukan nilai dari `a` terkecil sehingga `Z(a, 2*a)` **lebih besar** dari $2^{10}$.
 
 **Soal 9.** <u>**BENAR** atau **SALAH**</u>: Pemanggilan program tersebut sama dengan pemanggilan program dibawah ini.
 

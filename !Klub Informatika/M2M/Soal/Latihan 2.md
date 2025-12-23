@@ -18,7 +18,11 @@ Mbah dukun ingin memaksimalkan banyaknya *subarray*[^subarray] yang mengandung *
 
 **Soal 2.** Jika dalam brankas rahasia mbah dukun berisi sebanyak 6 buah bilangan terurut sebagai berikut $A = [4, 3, 6, 1, 5, 10]$, tentukan banyaknya sub array yang mengandung setidaknya satu bilangan genap.
 
-**Soal 3.** Jika dalam brankas rahasia mbah dukun berisi sebanyak 20 buah bilangan terurut sebagai berikut $A = [2, 1, 6, 1, 3, 1000, 3, 5, 7, 9, 13, 21, 1, 8, 6, 5, 3, 4, 2, 1]$, tentukan banyaknya *subarray* yang mengandung setidaknya satu bilangan genap.
+**Soal 3.** Jika dalam brankas rahasia mbah dukun berisi sebanyak 20 buah bilangan terurut
+
+$$ A = [2, 1, 6, 1, 3, 1000, 3, 5, 7, 9, 13, 21, 1, 8, 6, 5, 3, 4, 2, 1], $$
+
+tentukan banyaknya *subarray* yang mengandung setidaknya satu bilangan genap.
 
 ---
 
@@ -88,6 +92,6 @@ int Bunga(int x) {
 }
 ```
 
-**Soal 10.** Tentukan nilai dari `bunga(4)`.
+**Soal 10.** Tentukan nilai dari `Bunga(4)`.
 
-**Soal 11.** Tentukan nilai dari `bunga(22)`.
+**Soal 11.** Tentukan nilai dari `Bunga(22)`.
