@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "daf4f2763dd3d55d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7c669bd9abe71c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "951bfc591403b33d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "904b437c2bc0fe10",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ad0a635c3e67732",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4d6da0c4485d600",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e6057679d66c4c2a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "66039b754c57c01a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "004acae1122c8391",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dbd3fb1eda775b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d69fbd448a71cb62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Geografi/Bab 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Bab 1"
+            }
+          },
+          {
+            "id": "1faea33a7fc4c1c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "!Klub Informatika/Dynamic Programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dynamic Programming"
+            }
+          },
+          {
+            "id": "542ca9c42b5fac0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d0906924fa0bfc03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "986734fe11904725",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "986734fe11904725",
+  "lastOpenFiles": [
+    "The Game.md",
+    "Permainan.md",
+    "Sejarah/Bab 1 Pengantar Ilmu Sejarah.md",
+    "!Kisi-Kisi/Semester 1/Jilid.md",
+    "!Kisi-Kisi/Semester 1/Sejarah.md",
+    "!Kisi-Kisi/Semester 1/Biologi.md",
+    "note/35ba5556-4017-46c0-a1c4-0d326f851b6a.md",
+    "note",
+    "!Kisi-Kisi/Semester 1/Fisika.md",
+    "!Kisi-Kisi/Semester 1/Matematika.md",
+    "!Kisi-Kisi/Semester 1/Fikih.md",
+    "!Kisi-Kisi/Semester 1/SKI.md",
+    "!Kisi-Kisi/Semester 1/Al-Qur'an Hadis.md",
+    "!Kisi-Kisi/Semester 1/Bahasa Indonesia.md",
+    "!Klub Kecerdasan Artifisial/Try Out Ekshibisi AI.md",
+    "!Kisi-Kisi/Semester 1",
+    "!Kisi-Kisi",
+    "!Klub Kecerdasan Artifisial/Soal Seleksi Ekshibisi AI 2025.md",
+    "!Klub Kecerdasan Artifisial/Matriks.md",
+    "!Klub Informatika/M2M/Soal/Latihan 2.md",
+    "!Klub Informatika/M2M/Soal/Latihan 1.md",
+    "!Klub Informatika/!Soal.md",
+    "!Klub Informatika/Barisan dan Deret.md",
+    "!Klub Informatika/Logika Proposisi.md",
+    "!Klub Informatika/Himpunan.md",
+    "!Klub Informatika/Dynamic Programming.md",
+    "!Klub Informatika/Arsip Lomba/OSP.md",
+    "!Klub Informatika/Arsip Lomba/OSA-P 2025 Pembahasan.md",
+    "!Klub Informatika/Arsip Lomba/OSA-P 2025.md",
+    "!Klub Informatika/M2M/Materi",
+    "!Assets/M2M/Latihan 3 Soal 1–3.png",
+    "!Assets/M2M/unnamed.png",
+    "!Assets/M2M",
+    "!Klub Informatika/M2M/Soal",
+    "!Klub Informatika/Evaluasi/K10S1",
+    "!Klub Informatika/Evaluasi",
+    "!Klub Informatika/M2M",
+    "PJOK/Sosiologi",
+    "!Assets/Soal Seleksi Ekshibisi AI 2025/Contoh Padding.png",
+    "!Assets/Soal Seleksi Ekshibisi AI 2025/Contoh Stride.png",
+    "!Assets/Soal Seleksi Ekshibisi AI 2025/Contoh Konvolusi.png",
+    "!Assets/Try Out Ekshibisi AI/Logika 2.png",
+    "!Assets/Try Out Ekshibisi AI/Logika 1.png",
+    "Informatika/Flowchart Pagi Ceria.png",
+    "Biologi/Mind Map Biologi.canvas",
+    "Akidah Akhlak/Skema Presentasi Akidah Akhlak.canvas",
+    "Bahasa Inggris/Act 14 and 15 Descriptive Text.png",
+    "!Assets/Museum of the Future/Outside.png",
+    "Informatika/Flowchart Pagi Ceria.canvas",
+    "Sejarah/Family Tree.canvas",
+    "Mind Map IPA.canvas"
+  ]
+}

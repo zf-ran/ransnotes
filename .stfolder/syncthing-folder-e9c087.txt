@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ransnotes
+created: 2026-06-25T17:08:56+07:00

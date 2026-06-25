@@ -7,6 +7,7 @@
   "enabledCssSnippets": [
     "variable-ordered-list",
     "print",
+    "math",
     "jetbrainsmono-nerd-font",
     "no-strike-task",
     "no-wrap-code-block",
@@ -14,10 +15,9 @@
     "transparent-callout",
     "inter-complete",
     "formal-code",
-    "hr-page-break",
-    "math"
+    "hr-page-break"
   ],
-  "theme": "obsidian",
+  "theme": "system",
   "textFontFamily": "Inter Complete",
   "interfaceFontFamily": "Inter Complete",
   "monospaceFontFamily": "JetBrainsMono Nerd Font,JetBrains Mono Nerd Font,JetBrains Mono,DejaVu Sans Mono,Cascadia Code,Source Code Pro,BPG Courier GPL&GNU"

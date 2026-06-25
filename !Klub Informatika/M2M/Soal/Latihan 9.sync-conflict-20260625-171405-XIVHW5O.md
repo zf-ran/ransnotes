@@ -4,8 +4,6 @@ date: 2025-12-18
 
 # Soal 1–3. Revolusi Angka Volodya
 
-#number-theory
-
 Di sebuah kerajaan angka yang jauh di ujung bilangan, tinggallah seorang pemuda bernama Volodya. Volodya bukan orang biasa. Ia dikenal sebagai pemikir *nyeleneh*, seorang nonkonformis. Ia merasa dunia telah terlalu lama hidup di bawah aturan kuno. Urutan bilangan asli!
 
 “Kenapa harus 1, 2, 3, 4, 5, …?” gerutu Volodya suatu pagi sambil memandangi barisan bilangan di buku aritmatikanya.
@@ -43,8 +41,6 @@ $$ 2, 4, 6, 8, 10, 12, 14, 1, 3, 5, 7, 9, 11, 13 $$
 
 # Soal 4–6. *Bineron Galaxy*
 
-#number-theory
-
 Di galaksi jauh, terdapat planet Bineron yang dihuni oleh makhluk-makhluk digital. Setiap tahun, mereka mengadakan seleksi untuk memilih Pemimpin Kode, sosok yang diyakini mampu membaca pola biner dan mengambil keputusan dalam sekejap.
 
 Untuk itu, para kandidat harus menjalani ujian dari Oracle Binaris, sistem kecerdasan kuno yang menguji melalui papan biner rahasia. Papan ini awalnya diisi oleh kode utama, yaitu sebuah *string* biner$^\dagger$ $s$ sepanjang $n$.
@@ -79,8 +75,6 @@ int proses(int a) {
     return a + b;
 }
 ```
-
-%% Fungsi `proses` akan mengembalikan jumlah digit pada `a` ditambah $4$. %%
 
 **Soal 7.** Tentukan hasil dari pemanggilan `proses(142)`.
 
